@@ -1,0 +1,645 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>e-go 集團</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content=""/>
+    <!--fb og-->
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="">
+    <meta property="og:image" content="../assets/img/og-image.jpg" >
+    <meta content="zh_TW" property="og:locale">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/desktop.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+    <link rel="icon" href="../favicon.ico">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="../assets/js/vendor/jquery.min.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <nav class="navbar p-y-4 p-x-0">
+                <div class="row">
+                    <div class="col-xs-2 m-t-3">
+                        <a class="navbar-brand" href="index.html">
+                            <span class="sr-only">e-go集團</span>
+                        </a>
+                    </div>
+                    <div class="col-xs-10">
+                        <div class="nav text-xs-right">
+                            <a class="nav-item nav-link m-l-6 p-y-3" href="brands.html">旗下品牌</a>
+                            <a class="nav-item nav-link m-l-6 p-y-3" href="news-list.html">最新消息</a>
+                            <a class="nav-item nav-link m-l-6 p-y-3" href="index.html#contact">聯絡我們</a>
+                            <a class="nav-item nav-link m-l-6 p-y-3" href="" data-toggle="modal" data-target="#modal-login">登入/註冊</a>
+                            <div class="btn-group">
+                                <a href="" class="nav-item nav-link m-l-6 p-y-3 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    日本語
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">繁中</a>
+                                    <a class="dropdown-item" href="#">簡中</a>
+                                    <a class="dropdown-item" href="#">English</a>
+                                    <a class="dropdown-item" href="#">日本語</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div id="kv" class="kv-lg m-b-20">
+        <div class="container p-x-9 pos-a-t">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs m-t-2" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link text-xs-center p-t-3 active" data-toggle="tab" href="#tab-uptogo" role="tab">
+                        <i class="icon-cat-case primary"></i>
+                        <span class="text-primary">UP TO GO</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-xs-center p-t-3" data-toggle="tab" href="#tab-airplane" role="tab">
+                        <i class="icon-cat-airplane primary"></i>
+                        <span class="text-primary">機場接送</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-xs-center p-t-3" data-toggle="tab" href="#tab-rent" role="tab">
+                        <i class="icon-cat-bus primary"></i>
+                        <span class="text-primary">包車</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-xs-center p-t-3" data-toggle="tab" href="#tab-shuttle" role="tab">
+                        <i class="icon-cat-car primary"></i>
+                        <span class="text-primary">專屬接送</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane bg-white active" id="tab-uptogo" role="tabpanel">
+                    <div class="row">
+                        <div class="col-xs-12 p-x-8 p-t-6">
+                            <form>
+                                <div class="form-group row">
+                                    <div class="col-xs-2 p-r-1 text-xs-right" style="width:134px;">
+                                        <img class="" src="../assets/img/ui/logo-uptogo-gray.png" srcset="../assets/img/ui/logo-uptogo-gray@2x.png 2x" alt="">
+                                    </div>
+                                    <div class="col-xs-1 p-x-1" style="width:12%;">
+                                        <select class="c-select form-control form-control-lg">
+                                            <option selected>區域</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-1 p-x-1" style="width:12%;">
+                                        <select class="c-select form-control form-control-lg">
+                                            <option selected>主題</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-1 p-x-1" style="width:12%;">
+                                        <select class="c-select form-control form-control-lg">
+                                            <option selected>對象</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-2 p-x-1">
+                                        <div class="input-group input-group-lg date">
+                                            <input type="text" class="form-control p-r-0" value="" placeholder="出發日期">
+                                            <span class="input-group-addon">
+                                                <i class="fa fa-calendar text-primary"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-3 p-x-1">
+                                        <div class="input-group input-group-lg">
+                                            <input type="text" class="form-control" placeholder="">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-primary" type="button">下一步</button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="pull-xs-right m-t-3">
+                                        <a href="http://www.uptogo.com.tw" target="_blank">
+                                            進入網站 <i class="fa fa-external-link" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane bg-white" id="tab-airplane" role="tabpanel">
+                    <div class="row">
+                        <div class="col-xs-12 p-x-8">
+                            <form>
+                                <div class="form-group row">
+                                    <div class="col-xs-3 offset-xs-1 p-x-1">
+                                        <div class="pull-xs-left m-t-8" style="margin-right:3%;">
+                                            <img class="img-fluid" src="../assets/img/ui/logo-driways-gray.png" srcset="../assets/img/ui/logo-driways-gray@2x.png 2x" alt="">
+                                        </div>
+                                        <div class="pull-xs-left" style="width:50%;">
+                                        <label for="" class="d-block col-form-label">服務項目</label>
+                                        <select class="c-select form-control form-control-lg">
+                                            <option selected>接機</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-2 p-x-1">
+                                        <label for="" class="d-block col-form-label">接送日期</label>
+                                        <div class="input-group input-group-lg date">
+                                            <input type="text" class="form-control p-r-0" value="" placeholder="">
+                                            <span class="input-group-addon">
+                                                <i class="fa fa-calendar text-primary"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-2 p-x-1">
+                                        <label for="" class="d-block col-form-label">接送時間</label>
+                                        <select class="c-select form-control form-control-lg" style="width:44%">
+                                            <option selected>00</option>
+                                        </select>
+                                        <span class="d-inline-block text-xs-center" style="width:5.5%;">:</span>
+                                        <select class="c-select form-control form-control-lg" style="width:44%">
+                                            <option selected>00</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-1 p-x-1">
+                                        <label for="" class="d-block col-form-label">搭車人數</label>
+                                        <select class="c-select form-control form-control-lg">
+                                            <option selected>1</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-1 p-l-1">
+                                        <label for="" class="d-block col-form-label">&nbsp;</label>
+                                        <a class="btn btn-block btn-primary" href="">下一步</a>
+                                    </div>
+                                    <div class="pull-xs-right m-t-8">
+                                        <a href="http://www.driways.com.tw" target="_blank">
+                                            進入網站 <i class="fa fa-external-link" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane bg-white" id="tab-rent" role="tabpanel">
+                    <div class="row">
+                        <div class="col-xs-12 p-x-8">
+                            <form>
+                                <div class="form-group row">
+                                    <div class="col-xs-3 offset-xs-1 p-r-1" style="width:27%;">
+                                        <div class="pull-xs-left m-t-8" style="margin-right:5%;">
+                                            <img class="img-fluid" src="../assets/img/ui/logo-driways-gray.png" srcset="../assets/img/ui/logo-driways-gray@2x.png 2x" alt="">
+                                        </div>
+                                        <div class="pull-xs-left" style="width:50%;">
+                                        <label for="" class="d-block col-form-label">開始用車日期</label>
+                                        <div class="input-group input-group-lg date">
+                                            <input type="text" class="form-control p-x-1" value="" placeholder="">
+                                            <span class="input-group-addon p-l-0">
+                                                <i class="fa fa-calendar text-primary"></i>
+                                            </span>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-2 p-x-1">
+                                        <label for="" class="d-block col-form-label">開始用車時間</label>
+                                        <select class="c-select form-control form-control-lg" style="width:44%">
+                                            <option selected>00</option>
+                                        </select>
+                                        <span class="d-inline-block text-xs-center" style="width:5.5%;">:</span>
+                                        <select class="c-select form-control form-control-lg" style="width:44%">
+                                            <option selected>00</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-2 p-x-1" style="width:14%;">
+                                        <label for="" class="d-block col-form-label">結束用車日期</label>
+                                        <div class="input-group input-group-lg date">
+                                            <input type="text" class="form-control p-x-1" value="" placeholder="">
+                                            <span class="input-group-addon p-l-1">
+                                                <i class="fa fa-calendar text-primary"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-2 p-x-1">
+                                        <label for="" class="d-block col-form-label">結束用車時間</label>
+                                        <select class="c-select form-control form-control-lg" style="width:44%">
+                                            <option selected>00</option>
+                                        </select>
+                                        <span class="d-inline-block text-xs-center" style="width:5.5%;">:</span>
+                                        <select class="c-select form-control form-control-lg" style="width:44%">
+                                            <option selected>00</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-1 p-l-1">
+                                        <label for="" class="d-block col-form-label">&nbsp;</label>
+                                        <a class="btn btn-primary btn-block" href="">下一步</a>
+                                    </div>
+                                    <div class="pull-xs-right m-t-8">
+                                        <a href="http://www.driways.com.tw" target="_blank">
+                                            進入網站 <i class="fa fa-external-link" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane bg-white" id="tab-shuttle" role="tabpanel">
+                    <div class="row">
+                        <div class="col-xs-12 p-x-8">
+                            <form>
+                                <div class="form-group row">
+                                    <div class="col-xs-4 offset-xs-1 p-r-1">
+                                        <div class="pull-xs-left m-t-8" style="margin-right:5%;">
+                                            <img class="img-fluid" src="../assets/img/ui/logo-driways-gray.png" srcset="../assets/img/ui/logo-driways-gray@2x.png 2x" alt="">
+                                        </div>
+                                        <div class="pull-xs-left" style="width:59%;">
+                                        <label for="" class="d-block col-form-label">用車日期</label>
+                                        <div class="input-group input-group-lg date">
+                                            <input type="text" class="form-control" value="" placeholder="">
+                                            <span class="input-group-addon">
+                                                <i class="fa fa-calendar text-primary"></i>
+                                            </span>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-2 p-x-1">
+                                        <label for="" class="d-block col-form-label">用車起始時間</label>
+                                        <select class="c-select form-control form-control-lg" style="width:45%">
+                                            <option selected>00</option>
+                                        </select>
+                                        <span class="d-inline-block text-xs-center" style="width:5%;">:</span>
+                                        <select class="c-select form-control form-control-lg" style="width:45%">
+                                            <option selected>00</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-2 p-x-1">
+                                        <label for="" class="d-block col-form-label">搭車人數</label>
+                                        <select class="c-select form-control form-control-lg">
+                                            <option selected>1</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-1 p-l-1">
+                                        <label for="" class="d-block col-form-label">&nbsp;</label>
+                                        <a class="btn btn-primary btn-block" href="">下一步</a>
+                                    </div>
+                                    <div class="pull-xs-right m-t-8">
+                                        <a href="http://www.driways.com.tw" target="_blank">
+                                            進入網站 <i class="fa fa-external-link" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container p-x-0">
+            <div id="carousel-kv" class="carousel carousel-fade slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item full-screen kv-index active">
+                        <div class="v-box w-100 text-xs-center">
+                            <div class="v-middle">
+                                <img class="m-x-auto" src="../assets/img/ui/logo-ego-white.png" srcset="../assets/img/ui/logo-ego-white@2x.png 2x" alt="">
+                                <div class="m-t-3 m-b-20 text-white font-weight-bold ">全台最大的旅遊運輸車隊。雲端管理，以客為尊，安全第一</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item full-screen kv-video">
+                        <div class="tv">
+                            <div class="screen mute" id="tv"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <figure class="text-xs-center line">
+                <img src="../assets/img/ui/line-kv.png" srcset="../assets/img/ui/line-kv@2x.png 2x" alt="">
+            </figure>
+        </div>
+    </div>
+
+    <div id="main">
+        <!-- 介紹 -->
+        <div class="container" id="intro">
+            <div class="row p-t-3">
+                <div class="col-xs-6 p-r-0 text-xs-right">
+                    <div class="display-3 line-height-1">
+                        全台最大<br>旅遊運輸車隊
+                    </div>
+                    <div class="m-t-2 line-height-2">
+                        從第一輛車至今，600多輛車的車隊經營管理，<br>
+                        將持續以專業化、細緻貼心的態度，<br>
+                        為每位旅客提供安全、－流的服務。
+                    </div>
+                </div>
+                <div class="col-xs-4 text-xs-center">
+                    <div id="odometer" class="display-1 text-primary odometer">000</div>
+                    <div class="h5 font-weight-bold">輛車</div>
+                </div>
+                <div class="col-xs-12 m-y-5">
+                    <figure class="m-b-0 text-xs-center">
+                        <img src="../assets/img/ui/line-intro.png" srcset="../assets/img/ui/line-intro@2x.png 2x" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <!-- 服務項目 -->
+        <div class="container">
+            <div class="lead subtitle text-black m-b-6">Service Philosophy</div>
+        </div>
+        <div class="container bg-faded" id="service">
+            <div class="row p-y-18">
+                <div class="col-xs-5 p-x-0">
+                    <img class="pic" src="../assets/img/desktop/pic-sitemap.jpg" srcset="../assets/img/desktop/pic-sitemap@2x.jpg 2x" alt="">
+                </div>
+                <div class="col-xs-4 p-r-6">
+                    <div class="row p-y-6">
+                        <div class="col-xs-12">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <img class="img-fluid m-x-auto" src="../assets/img/ui/pic-service1.png" srcset="../assets/img/ui/pic-service1@2x.png 2x" alt="">
+                                </div>
+                                <div class="col-xs-9">
+                                    <div class="lead m-b-2 font-weight-bold text-primary">控管高品質，調派靈活</div>
+                                    <div>每輛車配有GPS衛星定位系統，控管中心可以隨時掌握車輛的行駛速度、行駛路線等訊息，靈活調派車隊。</div>
+                                </div>
+                            </div>
+                            <div class="row m-y-14">
+                                <div class="col-xs-3">
+                                    <img class="img-fluid m-x-auto" src="../assets/img/ui/pic-service2.png" srcset="../assets/img/ui/pic-service2@2x.png 2x" alt="">
+                                </div>
+                                <div class="col-xs-9">
+                                    <div class="lead m-b-2 font-weight-bold text-primary">E化管理，出遊輕鬆便捷</div>
+                                    <div>將旅客訂單及派車調度全面線上處理，即時掌握需求，讓旅客透過E化系統，輕鬆出遊。</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <img class="img-fluid m-x-auto" src="../assets/img/ui/pic-service3.png" srcset="../assets/img/ui/pic-service3@2x.png 2x" alt="">
+                                </div>
+                                <div class="col-xs-9">
+                                    <div class="lead m-b-2 font-weight-bold text-primary">以客為尊，安全第一</div>
+                                    <div>秉持「以客為尊、安全第一」的理念，提供尊爵的服務品質，深獲客戶信賴，優質服務深值企業核心。</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-2">
+                    <figure class="ill-mountain">
+                        <img class="" src="../assets/img/ui/ill-mountain.png" srcset="../assets/img/ui/ill-house@2x.png 2x" alt="">
+                    </figure>
+                </div>
+                <div class="col-xs-12 m-y-5">
+                    <figure class="m-b-0 text-xs-center">
+                        <img src="../assets/img/ui/line-service.png" srcset="../assets/img/ui/line-service@2x.png 2x" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <!-- 最新消息 -->
+        <div class="container">
+            <div class="lead subtitle text-black m-b-6">Latest News</div>
+        </div>
+        <div class="container bg-primary" id="news">
+            <div class="row">
+                <div class="col-xs-10 offset-xs-1">
+                    <div class="row section-news">
+                        <div class="col-xs-4 p-x-4">
+                            <a class="d-block bg-white" href="news-detail.html">
+                                <img class="img-fluid" src="../assets/img/uploads/pic-news-index-thumb1.jpg" srcset="../assets/img/uploads/pic-news-index-thumb1@2x.jpg 2x" alt="">
+                                <div class="p-x-6 p-y-4">
+                                    <div class="h5 text-black m-b-1">e-go台灣租車旅遊集團 Volkswagen 交車盛會實況</div>
+                                    <p class="text-gray font-small">
+                                        屏東客運在地服務多年，有賴鄉親、旅遊同業支持，已建立優質品牌形象，此次邀請全國知名的e-go台灣觀光 ...
+                                    </p>
+                                    <div class="text-black">2014-03-26</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-4 p-x-4">
+                            <a class="d-block bg-white" href="news-detail.html">
+                                <img class="img-fluid" src="../assets/img/uploads/pic-news-index-thumb1.jpg" srcset="../assets/img/uploads/pic-news-index-thumb1@2x.jpg 2x" alt="">
+                                <div class="p-x-6 p-y-4">
+                                    <div class="h5 text-black m-b-1">花蓮-墾丁線觀光巴士啟動</div>
+                                    <p class="text-gray font-small">
+                                        屏東客運在地服務多年，有賴鄉親、旅遊同業支持，已建立優質品牌形象，此次邀請全國知名的e-go台灣觀光 ...
+                                    </p>
+                                    <div class="text-black">2014-03-26</div>
+                                </div>
+                            </a>
+                            <div class="m-t-6 text-xs-center">
+                                <a class="btn btn-lg btn-opacity bd-a-2 bd-white p-y-4 p-x-8" href="news-list.html">
+                                    <span class="text-white">更多最新消息</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 p-x-4">
+                            <a class="d-block bg-white" href="news-detail.html">
+                                <img class="img-fluid" src="../assets/img/uploads/pic-news-index-thumb1.jpg" srcset="../assets/img/uploads/pic-news-index-thumb1@2x.jpg 2x" alt="">
+                                <div class="p-x-6 p-y-4">
+                                    <div class="h5 text-black m-b-1">e-go台灣租車旅遊集團 Volkswagen 交車盛會實況</div>
+                                    <p class="text-gray font-small">
+                                        屏東客運在地服務多年，有賴鄉親、旅遊同業支持，已建立優質品牌形象，此次邀請全國知名的e-go台灣觀光 ...
+                                    </p>
+                                    <div class="text-black">2014-03-26</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <figure class="m-t-6 m-b-0 text-xs-center">
+                        <img src="../assets/img/ui/line-news.png" srcset="../assets/img/ui/line-news@2x.png 2x" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <!-- 地圖 -->
+        <div class="container">
+            <div class="row">
+                <div class="pos-a-t m-t-10 text-xs-center">
+                    <div class="lead subtitle text-black m-b-3">Our Location</div>
+                    <div class="h5">11494台北市內湖區新湖三路196號</div>
+                </div>
+                <div id="map" class="map-md"></div>
+            </div>
+        </div>
+
+        <!-- 聯絡我們 -->
+        <div class="container bg-gray-dark" id="contact">
+            <div class="row p-b-12  text-white">
+                <div class="col-xs-12">
+                    <figure class="m-b-5 text-xs-center">
+                        <img src="../assets/img/ui/line-contact.png" srcset="../assets/img/ui/line-contact@2x.png 2x" alt="">
+                    </figure>
+                    <div class="lead subtitle text-primary m-b-9">Contact Us</div>
+                </div>
+                <div class="col-xs-4 offset-xs-3 p-x-7">
+                    <div class="row m-b-2">
+                        <div class="col-xs-12 p-l-0">
+                            <p>
+                                您可以於右方快速留言或來電聯絡我們。<br>
+                                服務電話 <span class="h5">02-2796-5668</span>
+                            </p>
+                            <a href="http://60.250.42.99/WebChat/webchat.html" target="_blank" class="card card-outline-primary btn-opacity m-y-4">
+                                <div class="card-block p-y-3">
+                                    <img class="pull-xs-left m-r-4" src="../assets/img/icon/icon-service.png" srcset="../assets/img/icon/icon-service@2x.png 2x" alt="">
+                                    <div class="text-white">線上客服</div>
+                                    <div class="text-white font-small">請點擊這裡開始線上對談</div>
+                                </div>
+                            </a>
+                            <div>
+                                <a class="btn btn-circle btn-white btn-fb m-r-1" href="">
+                                    <span class="h4"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                                </a>
+                                <a class="btn btn-circle btn-white btn-weixin" href="" data-trigger="hover" data-placement="top" data-popover="true" data-html="true" data-content="<img src='../assets/img/ui/qrcode.png' class='img-fluid'><div class='text-xs-center'>微信帳號：ego-travel</div>">
+                                <span class="h4"><i class="fa fa-weixin" aria-hidden="true"></i></span>
+                            </a>
+                            </div>
+                            <figure class="ill-park m-t-5">
+                                <img class="" src="../assets/img/ui/ill-house.png" srcset="../assets/img/ui/ill-house@2x.png 2x" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3 p-l-7">
+                    <form>
+                        <div class="form-group row">
+                            <div class="col-xs-12">
+                                <input class="form-control" type="text" value="" id="" placeholder="姓名">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-xs-12">
+                                <input class="form-control" type="text" value="" id="" placeholder="聯絡電話">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-xs-12">
+                                <input class="form-control" type="text" value="" id="" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-xs-12">
+                                <select class="c-select form-control">
+                                    <option>需求類型</option>
+                                    <option>需求類型</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-xs-12">
+                                <textarea class="form-control" rows="5" placeholder="訊息內容"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="" class="col-xs-4 col-form-label p-r-0">附加檔案</label>
+                            <div class="col-xs-8 p-l-0">
+<!--
+                                <label class="btn btn-gray btn-file pull-xs-left m-r-1">
+                                    瀏覽檔案 <input type="file" style="display: none;">
+                                </label>
+<a class="btn btn-primary" href="">上傳</a>
+-->
+<!--
+                                <div class="input-group input-group-file">
+                                    <label class="input-group-btn">
+                                        <span class="btn btn-gray">
+                                            瀏覽檔案 <input type="file" style="display: none;" multiple>
+                                        </span>
+                                    </label>
+                                    <input type="text" class="form-control" readonly>
+                                </div>
+-->
+                                <input class="btn btn-gray btn-block" type="file" data-filename-placement="inside" title="Browser">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-xs-12">
+                                <a class="btn btn-primary btn-lg btn-block" href="" data-toggle="modal" data-target="#modal-done">送出</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-xs-2 text-xs-center">
+                    <a class="btn-top btn-opacity btn-anchor" href="#header">
+                        <i class="icon-scroll-top"></i>
+                        <div class="subtitle text-white">TOP</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="include-footer"></div>
+
+    <div id="include-modal"></div>
+
+    <!-- Modal:Done -->
+        <div class="modal fade" id="modal-done" tabindex="-1" role="dialog" aria-labelledby="ModalDone" aria-hidden="true">
+            <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body p-x-10">
+                            <div class="m-t-5">
+                                <div class="h5 text-primary text-xs-center font-weight-bold">表單已經成功送出了</div>
+                            </div>
+                            <div class="m-t-4 text-xs-center">
+                                <p class="line-height-2">
+                                    將有專人與您聯繫，若有其他問題，<br>
+                                    歡迎請洽客服：+886-2-2796-5668
+                                </p>
+                            </div>
+                            <div class="text-xs-center">
+                                <a href="#" class="btn btn-primary p-x-10 p-y-3" data-dismiss="modal" data-toggle="modal">確認</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Common -->
+    <script src="../assets/js/vendor/boostrap-tether.min.js"></script>
+    <script src="../assets/js/vendor/bootstrap.min.js"></script>
+    <script src="../assets/js/vendor/bootstrap-datepicker.min.js"></script>
+    <script src="../assets/js/vendor/locales/bootstrap-datepicker.zh-TW.min.js"></script>
+    <script src="../assets/js/vendor/bootstrap-file-input.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/desktop.js"></script>
+
+    <!-- Single -->
+    <script src="../assets/js/vendor/jquery.odometer.min.js"></script>
+    <script src="../assets/js/function/index.js"></script>
+
+    <!--Google Maps API-->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="../assets/js/function/googlemap.js"></script>
+
+    <!-- Htm include 程式可自行更改作法 -->
+    <script src="../assets/js/function/include.js"></script>
+
+</body>
+</html>
+

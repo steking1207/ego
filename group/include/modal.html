@@ -1,0 +1,348 @@
+<!-- Modal:Login -->
+        <div class="modal fade" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="ModalLogin" aria-hidden="true">
+            <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header m-b-1">
+                            <div class="h2 text-white text-xs-center">會員登入</div>
+                            <button type="button" class="close pos-a-rt" data-dismiss="modal">
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body p-a-10">
+                            <div class="row m-b-4">
+                                <div class="col-xs-6 p-r-1">
+                                    <a class="btn btn-block btn-fb p-a-0" href="">
+                                        <div class="pull-xs-left h3">
+                                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        </div>
+                                        <span>Facebook登入</span>
+                                    </a>
+                                </div>
+                                <div class="col-xs-6 p-l-1">
+                                    <a class="btn btn-block btn-google p-a-0" href="">
+                                        <div class="pull-xs-left h3">
+                                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                        </div>
+                                        <span>Google+登入</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <form class="form-gray">
+                                <div class="form-group row bg-gray-lighter rd-t">
+                                    <label class="col-xs-3 col-form-label">電子信箱</label>
+                                    <div class="col-xs-9 p-l-0">
+                                        <input class="form-control" type="text" value="" id="" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="form-group row bg-gray-lighter rd-b">
+                                    <label class="col-xs-3 col-form-label">密碼</label>
+                                    <div class="col-xs-9 p-l-0">
+                                        <input class="form-control" type="password" value="" id="" placeholder="">
+                                    </div>
+                                </div>
+                                <a class="btn btn-primary btn-lg btn-block m-y-2" href="">登入</a>
+                                <a class="btn btn-gray btn-lg btn-block m-y-2" href="">不登入，直接繼續</a>
+                            </form>
+                            <div class="pull-xs-left">
+                                <a class="text-info" href="" data-dismiss="modal" data-toggle="modal" data-target="#modal-pw-forgot">忘記密碼?</a>
+                            </div>
+                            <div class="pull-xs-right">
+                                還不是會員嗎? <a class="text-info" href="" data-dismiss="modal" data-toggle="modal" data-target="#modal-register">註冊</a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Modal:Register -->
+        <div class="modal fade" id="modal-register" tabindex="-1" role="dialog" aria-labelledby="ModalRegister" aria-hidden="true">
+            <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header m-b-1">
+                            <div class="h2 text-white text-xs-center">註冊會員</div>
+                            <button type="button" class="close pos-a-rt" data-dismiss="modal">
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body p-a-10 bg-pattern-white">
+                            <div class="row m-b-4">
+                                <div class="col-xs-6 p-r-1">
+                                    <a class="btn btn-block btn-fb p-a-0" href="">
+                                        <div class="pull-xs-left h3">
+                                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        </div>
+                                        <span>Facebook註冊</span>
+                                    </a>
+                                </div>
+                                <div class="col-xs-6 p-l-1">
+                                    <a class="btn btn-block btn-google p-a-0" href="">
+                                        <div class="pull-xs-left h3">
+                                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                        </div>
+                                        <span>Google+註冊</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <form class="form-gray">
+                                <div class="form-group row bg-gray-lighter rd-t">
+                                    <label class="col-xs-4 col-form-label">姓名</label>
+                                    <div class="col-xs-8 p-l-0">
+                                        <input class="form-control" type="text" value="" id="" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="form-group row bg-gray-lighter has-danger">
+                                    <label class="col-xs-4 col-form-label">電子信箱</label>
+                                    <div class="col-xs-8 p-l-0">
+                                        <input class="form-control" type="text" value="" id="" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="form-group row bg-gray-lighter">
+                                    <label class="col-xs-4 col-form-label">密碼</label>
+                                    <div class="col-xs-8 p-l-0">
+                                        <input class="form-control" type="password" value="" id="" placeholder="請輸入 6~12 位英文及數字">
+                                    </div>
+                                </div>
+                                <div class="form-group row bg-gray-lighter rd-b">
+                                    <label class="col-xs-4 col-form-label">再次輸入密碼</label>
+                                    <div class="col-xs-8 p-l-0">
+                                        <input class="form-control" type="password" value="" id="" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="form-group row text-danger text-xs-right">
+                                    <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <small class="">這個電子信箱已經註冊過了</small>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="c-input c-checkbox c-input-primary">
+                                        <input type="checkbox">
+                                        <span class="c-indicator rd-10"></span>
+                                        我已閱讀並同意<a class="text-info" href="privacy.html">個資法宣告與隱私權條款</a>
+                                    </label>
+                                </div>
+                                <div class="form-group row p-t-0">
+                                    <label class="c-input c-checkbox c-input-primary">
+                                        <input type="checkbox">
+                                        <span class="c-indicator rd-10"></span>
+                                        我願意收到 e-go 優惠資訊
+                                    </label>
+                                </div>
+                                <a class="btn btn-primary btn-lg btn-block m-y-2" href="" data-dismiss="modal" data-toggle="modal" data-target="#modal-verification">確認送出</a>
+                            </form>
+                            <div>
+                                <a class="text-info" href="" data-dismiss="modal" data-toggle="modal" data-target="#modal-login">會員登入</a> | <a class="text-info" href="" data-dismiss="modal" data-toggle="modal" data-target="#modal-verification-resend">重寄驗證信</a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Modal:Verification -->
+        <div class="modal fade" id="modal-verification" tabindex="-1" role="dialog" aria-labelledby="ModalVerification" aria-hidden="true">
+            <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header m-b-1">
+                            <div class="h2 text-white text-xs-center">您已經註冊成功！</div>
+                            <button type="button" class="close pos-a-rt" data-dismiss="modal">
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body p-a-10 bg-pattern-white">
+                            <div class="text-xs-center">系統已發送一封驗證信至您的信箱：
+                                <div class="h4 font-weight-normal m-t-2 text-black">sh***un@userxper.com</div>
+                                請點選信件中的連結驗證您的信箱。
+                            </div>
+                            <div class="row m-t-2">
+                                <div class="col-xs-4 offset-xs-4 p-x-0 text-xs-center">
+                                <a class="btn btn-primary btn-lg btn-block m-y-2" href="" data-dismiss="modal" data-toggle="modal" data-target="#modal-verification-success">好</a>
+                                <a class="text-info" href="" data-dismiss="modal" data-toggle="modal" data-target="#modal-login">會員登入</a> | <a class="text-info" href="" data-dismiss="modal" data-toggle="modal" data-target="#modal-verification-resend">重寄驗證信</a>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Modal:Verification Resend -->
+        <div class="modal fade" id="modal-verification-resend" tabindex="-1" role="dialog" aria-labelledby="ModalVerificationResend" aria-hidden="true">
+            <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header m-b-1">
+                            <div class="h2 text-white text-xs-center">重新發送驗證信</div>
+                            <button type="button" class="close pos-a-rt" data-dismiss="modal">
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body p-a-10 bg-pattern-white">
+                            <form class="form-gray">
+                                <div class="text-xs-center">
+                                    請輸入您的會員帳號信箱
+                                    <input class="form-control form-control-lg m-t-2" type="text" placeholder="">
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-4 offset-xs-4 p-x-0 text-xs-center">
+                                    <a class="btn btn-primary btn-lg btn-block m-y-2" href="">重寄驗證信</a>
+                                    <a class="text-info" href="" data-dismiss="modal" data-toggle="modal" data-target="#modal-login">會員登入</a>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Modal:Verification Success -->
+        <div class="modal fade" id="modal-verification-success" tabindex="-1" role="dialog" aria-labelledby="ModalVerificationSuccess" aria-hidden="true">
+            <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header m-b-1">
+                            <div class="h2 text-white text-xs-center">驗證成功</div>
+                            <button type="button" class="close pos-a-rt" data-dismiss="modal">
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body p-a-10 bg-pattern-white">
+                            <div class="h4 font-weight-normal text-xs-center">
+                                您的信箱已經驗證成功！
+                            </div>
+                            <div class="text-xs-center m-t-5">
+                                <a class="btn btn-primary btn-lg" href="" data-dismiss="modal">返回首頁</a>
+                                <a class="btn btn-primary btn-lg" href="member-new-list.html">前往會員專區</a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Modal:Password Forgot -->
+        <div class="modal fade" id="modal-pw-forgot" tabindex="-1" role="dialog" aria-labelledby="ModalPWForgot" aria-hidden="true">
+            <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header m-b-1">
+                            <div class="h2 text-white text-xs-center">忘記密碼</div>
+                            <button type="button" class="close pos-a-rt" data-dismiss="modal">
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body p-a-10 bg-pattern-white">
+                            <form class="form-gray">
+                                <div class="text-xs-center">
+                                    請輸入您的會員帳號信箱
+                                    <input class="form-control form-control-lg m-t-2" type="text" placeholder="">
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-4 offset-xs-4 p-x-0 text-xs-center">
+                                    <a class="btn btn-primary btn-lg btn-block m-y-2" href="" data-dismiss="modal" data-toggle="modal" data-target="#modal-pw-forgot-resend">確認送出</a>
+                                    <a class="text-info" href="" data-dismiss="modal" data-toggle="modal" data-target="#modal-login">會員登入</a>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Modal:Password Forgot Resend -->
+        <div class="modal fade" id="modal-pw-forgot-resend" tabindex="-1" role="dialog" aria-labelledby="ModalPWForgotResend" aria-hidden="true">
+            <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header m-b-1">
+                            <div class="h2 text-white text-xs-center">重設密碼確認信已經寄出</div>
+                            <button type="button" class="close pos-a-rt" data-dismiss="modal">
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body p-a-10 bg-pattern-white">
+                            <div class="text-xs-center">系統已發送一封驗證信至您的信箱：
+                                <div class="h4 font-weight-normal m-t-2 text-black">sh***un@userxper.com</div>
+                                請點選信件中的連結重新設定密碼。
+                            </div>
+                            <div class="row m-t-2">
+                                <div class="col-xs-4 offset-xs-4 p-x-0 text-xs-center">
+                                <a class="btn btn-primary btn-lg btn-block m-y-2" href="" data-dismiss="modal" data-toggle="modal" data-target="#modal-pw-reset">好</a>
+                                <a class="text-info" href="" data-dismiss="modal" data-toggle="modal" data-target="#modal-login">會員登入</a>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Modal:Password Reset -->
+        <div class="modal fade" id="modal-pw-reset" tabindex="-1" role="dialog" aria-labelledby="ModalPWReset" aria-hidden="true">
+            <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header m-b-1">
+                            <div class="h2 text-white text-xs-center">重設密碼</div>
+                            <button type="button" class="close pos-a-rt" data-dismiss="modal">
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body p-a-10 bg-pattern-white">
+                            <form class="form-gray">
+                                <div class="form-group row bg-gray-lighter rd-t">
+                                    <label class="col-xs-4 col-form-label">重設密碼</label>
+                                    <div class="col-xs-8 p-l-0">
+                                        <input class="form-control" type="password" value="" id="" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="form-group row bg-gray-lighter rd-b">
+                                    <label class="col-xs-4 col-form-label">再次輸入密碼</label>
+                                    <div class="col-xs-8 p-l-0">
+                                        <input class="form-control" type="password" value="" id="" placeholder="請輸入 6~12 位英文及數字">
+                                    </div>
+                                </div>
+                                <a class="btn btn-primary btn-lg btn-block m-y-2" href="" data-dismiss="modal" data-toggle="modal" data-target="#modal-pw-reset-success">下一步</a>
+                            </form>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Modal:Password Reset Success -->
+        <div class="modal fade" id="modal-pw-reset-success" tabindex="-1" role="dialog" aria-labelledby="ModalPWResetSuccess" aria-hidden="true">
+            <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header m-b-1">
+                            <div class="h2 text-white text-xs-center">新密碼設定完成</div>
+                            <button type="button" class="close pos-a-rt" data-dismiss="modal">
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body p-a-10 bg-pattern-white">
+                            <div class="h4 font-weight-normal text-xs-center">
+                                您的信密碼已經設定完成，<br>下次請使用新密碼登入。
+                            </div>
+                            <div class="text-xs-center m-t-5">
+                                <a class="btn btn-primary btn-lg" href="" data-dismiss="modal" data-toggle="modal" data-target="#modal-login">立即登入</a>
+                                <a class="btn btn-primary btn-lg" href="" data-dismiss="modal">返回首頁</a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

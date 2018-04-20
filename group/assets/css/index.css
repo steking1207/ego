@@ -1,0 +1,221 @@
+.odometer.odometer-auto-theme, .odometer.odometer-theme-default {
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  position: relative; }
+
+.odometer.odometer-auto-theme, .odometer.odometer-theme-default {
+  *display: inline; }
+
+.odometer.odometer-auto-theme .odometer-digit, .odometer.odometer-theme-default .odometer-digit {
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  position: relative; }
+
+.odometer.odometer-auto-theme .odometer-digit, .odometer.odometer-theme-default .odometer-digit {
+  *display: inline; }
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer, .odometer.odometer-theme-default .odometer-digit .odometer-digit-spacer {
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  visibility: hidden; }
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer, .odometer.odometer-theme-default .odometer-digit .odometer-digit-spacer {
+  *display: inline; }
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner, .odometer.odometer-theme-default .odometer-digit .odometer-digit-inner {
+  text-align: left;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden; }
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-ribbon, .odometer.odometer-theme-default .odometer-digit .odometer-ribbon {
+  display: block; }
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-ribbon-inner, .odometer.odometer-theme-default .odometer-digit .odometer-ribbon-inner {
+  display: block;
+  -webkit-backface-visibility: hidden; }
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-value, .odometer.odometer-theme-default .odometer-digit .odometer-value {
+  display: block;
+  -webkit-transform: translateZ(0); }
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-value.odometer-last-value, .odometer.odometer-theme-default .odometer-digit .odometer-value.odometer-last-value {
+  position: absolute; }
+
+.odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner, .odometer.odometer-theme-default.odometer-animating-up .odometer-ribbon-inner {
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s; }
+
+.odometer.odometer-auto-theme.odometer-animating-up.odometer-animating .odometer-ribbon-inner, .odometer.odometer-theme-default.odometer-animating-up.odometer-animating .odometer-ribbon-inner {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%); }
+
+.odometer.odometer-auto-theme.odometer-animating-down .odometer-ribbon-inner, .odometer.odometer-theme-default.odometer-animating-down .odometer-ribbon-inner {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%); }
+
+.odometer.odometer-auto-theme.odometer-animating-down.odometer-animating .odometer-ribbon-inner, .odometer.odometer-theme-default.odometer-animating-down.odometer-animating .odometer-ribbon-inner {
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0); }
+
+.subtitle {
+  text-transform: uppercase;
+  letter-spacing: 1.25rem;
+  font-weight: bold;
+  text-align: center; }
+
+#kv .pos-a-t {
+  width: 100%; }
+#kv .line {
+  position: relative;
+  margin-top: -244px; }
+#kv .nav-tabs {
+  text-align: center; }
+#kv .nav-tabs .nav-item {
+  float: none;
+  display: inline-block;
+  margin: 0 -2px;
+  padding-top: 2px;
+  min-width: 160px;
+  border-left: 1px solid rgba(220, 77, 52, 0.3);
+  border-right: 1px solid rgba(220, 77, 52, 0.3);
+  -webkit-background-clip: padding-box;
+  /* for Safari */
+  background-clip: padding-box;
+  /* for IE9+, Firefox 4+, Opera, Chrome */ }
+#kv .nav-tabs .nav-item .nav-link {
+  border: none;
+  font-weight: bold;
+  -moz-border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 10px;
+  border-radius: 10px 10px 0 0; }
+#kv .nav-tabs .nav-item:hover .nav-link {
+  background-color: #fff; }
+#kv .tab-pane {
+  height: 100px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #kv .tab-pane {
+    margin-top: -1px; } }
+#kv .tab-pane .btn {
+  padding: 14px 10px; }
+#kv .tab-pane img {
+  width: 114px; }
+#kv form .form-control {
+  background-color: #eaeaea; }
+#kv form .form-control, #kv form .btn {
+  font-size: 1rem; }
+#kv form .input-group-lg .form-control {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-right: none; }
+#kv form .input-group-lg .input-group-addon {
+  background-color: #eaeaea; }
+#kv form ::-webkit-input-placeholder {
+  color: #333; }
+#kv form :-moz-placeholder {
+  color: #333; }
+#kv form ::-moz-placeholder {
+  color: #333; }
+#kv form :-ms-input-placeholder {
+  color: #333; }
+#kv .btn-close {
+  position: absolute;
+  right: 45px;
+  top: 65px; }
+
+.kv-lg .container-fluid, .kv-lg .container {
+  height: 640px !important; }
+.kv-lg .carousel .carousel-item {
+  height: 640px; }
+
+#intro .m-t-2 {
+  margin-right: -1rem; }
+#intro .display-1 {
+  line-height: 0.8; }
+
+#service {
+  height: 680px; }
+#service .pic {
+  margin-left: -120px; }
+#service .ill-mountain {
+  margin-top: 360px; }
+
+#news {
+  margin-top: 155px; }
+#news .section-news {
+  margin-top: -95px; }
+#news .section-news .col-xs-4:first-child {
+  margin-top: -60px; }
+#news .section-news .col-xs-4:last-child {
+  margin-top: 60px; }
+#news .section-news a.d-block .h5 {
+  height: 3.2rem;
+  overflow: hidden; }
+#news .section-news a.d-block p {
+  height: 4rem;
+  overflow: hidden; }
+#news .section-news a.d-block:hover {
+  background-color: #eee !important;
+  text-decoration: none; }
+#news .section-news a.d-block:hover img {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7; }
+
+#contact a.card:hover {
+  text-decoration: none; }
+#contact .ill-park {
+  margin-left: -470px; }
+#contact form .form-control {
+  padding-left: 0;
+  padding-right: 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #9d9d9d;
+  color: #fff; }
+#contact form .c-select {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAUCAMAAADWUb86AAAAJ1BMVEX///////////////////////////////////////////////////9Ruv0SAAAADHRSTlMABg8cVGFidXfa3P28D2//AAAATElEQVR4AYXKpxFAMQwFwfdzkPuv1zMCRwxu8WZ/Xncmdw3zH5HHkseSx+LJ4sniyeLJ4sniyeLJ4slKrrLFk8WTxZPF09Xv66W2LCYVfxC9Amba2gAAAABJRU5ErkJggg==); }
+#contact form .c-select option {
+  color: #000; }
+#contact form .btn-gray:hover, #contact form .btn-gray:focus {
+  background-color: #999; }
+#contact form ::-webkit-input-placeholder {
+  color: #fff; }
+#contact form :-moz-placeholder {
+  color: #fff; }
+#contact form ::-moz-placeholder {
+  color: #fff; }
+#contact form :-ms-input-placeholder {
+  color: #fff; }

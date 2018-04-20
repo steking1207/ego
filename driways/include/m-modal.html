@@ -1,0 +1,550 @@
+<div class="modal fade modal-order" id="modal-order" tabindex="-1" role="dialog" aria-labelledby="ModalOrder" aria-hidden="true">
+            <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="h5 modal-title text-xs-center">預約接送/租車</div>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body p-t-2 p-b-16 p-x-0">
+                            <div class="tab-content">
+                                <div class="tab-pane fade in active" id="order-pickup" role="tabpanel">
+                                    <form class="form-gray-dark">
+                                        <div class="form-group row">
+                                            <label for="" class="col-xs-12 col-form-label p-y-0 p-x-1">
+                                                出發機場
+                                            </label>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-6 p-x-1">
+                                                <select class="c-select form-control">
+                                                    <option selected>選擇地區</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-xs-6 p-x-1">
+                                                <select class="c-select form-control">
+                                                    <option selected>選擇國家</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <select class="c-select form-control">
+                                                    <option selected>選擇機場</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="" class="col-xs-12 col-form-label p-y-0 p-x-1">
+                                                到達機場
+                                            </label>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <select class="c-select form-control">
+                                                    <option selected>選擇機場</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <hr class="hr-gray">
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <select class="c-select form-control">
+                                                    <option selected>選擇航空公司</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <div class="input-group date">
+                                                    <input type="text" class="form-control bd-l-0 bd-r-0" value="" placeholder="航班日期">
+                                                    <span class="input-group-addon p-l-0">
+                                                        <i class="fa fa-calendar text-gray-light"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <select class="c-select form-control">
+                                                    <option selected>選擇航班編號</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <p class="form-control-static p-y-0">
+                                                    <small>航班抵達日期</small> 2016/12/31
+                                                </p>
+                                            </div>
+                                            <div class="col-xs-12 p-x-1">
+                                                <p class="form-control-static p-y-0">
+                                                    <small>航班抵達時間</small> 12:59
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <div class="input-group date">
+                                                    <input type="text" class="form-control bd-l-0 bd-r-0" value="" placeholder="指定接送日期">
+                                                    <span class="input-group-addon p-l-0">
+                                                        <i class="fa fa-calendar text-gray-light"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon text-white p-r-0">
+                                                        指定接送時間
+                                                    </span>
+                                                    <select class="c-select form-control" style="width:50%;">
+                                                        <option selected>00</option>
+                                                    </select>
+                                                    <select class="c-select form-control" style="width:50%;">
+                                                        <option selected>00</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr class="hr-gray">
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <select class="c-select form-control">
+                                                    <option selected>車型</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <input type="text" class="form-control" placeholder="抵達地址" data-toggle="modal" data-target="#modal-address">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <input type="text" class="form-control" placeholder="停靠點1" data-toggle="modal" data-target="#modal-address">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <input type="text" class="form-control" placeholder="停靠點2" data-toggle="modal" data-target="#modal-address">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <a class="btn btn-white btn-block btn-sm p-y-1 text-primary">
+                                                    <i class="fa fa-plus"></i> 新增停靠點
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <div class="h4 text-white">NT$3,999 元起</div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <div class="text-xs-right">
+                                                    <a class="btn btn-primary btn-lg btn-block" href="">進入訂購流程</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="order-dropoff" role="tabpanel">
+                                    <form class="form-gray-dark">
+                                        <div class="form-group row">
+                                            <label for="" class="col-xs-12 col-form-label p-y-0 p-x-1">
+                                                到達機場
+                                            </label>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-6 p-x-1">
+                                                <select class="c-select form-control">
+                                                    <option selected>選擇地區</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-xs-6 p-x-1">
+                                                <select class="c-select form-control">
+                                                    <option selected>選擇城市</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <select class="c-select form-control">
+                                                    <option selected>選擇機場</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="" class="col-xs-12 col-form-label p-y-0 p-x-1">
+                                                出發機場
+                                            </label>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <select class="c-select form-control">
+                                                    <option selected>選擇機場</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <hr class="hr-gray">
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <select class="c-select form-control">
+                                                    <option selected>選擇航空公司</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <div class="input-group date">
+                                                    <input type="text" class="form-control bd-l-0 bd-r-0" value="" placeholder="航班日期">
+                                                    <span class="input-group-addon p-l-0">
+                                                        <i class="fa fa-calendar text-gray-light"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <select class="c-select form-control">
+                                                    <option selected>選擇航班編號</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <p class="form-control-static p-y-0">
+                                                    <small>航班起飛時間</small> 12:59
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <div class="input-group date">
+                                                        <input type="text" class="form-control bd-l-0 bd-r-0" value="" placeholder="搭車日期">
+                                                        <span class="input-group-addon p-l-0">
+                                                            <i class="fa fa-calendar text-gray-light"></i>
+                                                        </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon text-white p-r-0">
+                                                        搭車時間
+                                                    </span>
+                                                    <select class="c-select form-control" style="width:50%;">
+                                                        <option selected>00</option>
+                                                    </select>
+                                                    <select class="c-select form-control" style="width:50%;">
+                                                        <option selected>00</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr class="hr-gray">
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <select class="c-select form-control">
+                                                    <option selected>車型</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <input type="text" class="form-control" placeholder="抵達地址" data-toggle="modal" data-target="#modal-address">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <input type="text" class="form-control" placeholder="停靠點1" data-toggle="modal" data-target="#modal-address">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <input type="text" class="form-control" placeholder="停靠點2" data-toggle="modal" data-target="#modal-address">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <a class="btn btn-white btn-block btn-sm p-y-1 text-primary">
+                                                    <i class="fa fa-plus"></i> 新增停靠點
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <div class="h4 text-white">NT$3,999 元起</div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <div class="text-xs-right">
+                                                    <a class="btn btn-primary btn-lg btn-block" href="">進入訂購流程</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="order-rent" role="tabpanel">
+                                    <form class="form-gray-dark">
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <select class="c-select form-control">
+                                                    <option selected>包車時間</option>
+                                                    <option>三小時包車</option>
+                                                    <option>六小時包車</option>
+                                                    <option>單天包車</option>
+                                                    <option>多天包車</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <div class="input-group date">
+                                                    <input type="text" class="form-control bd-l-0 bd-r-0" value="" placeholder="開始搭車日期">
+                                                    <span class="input-group-addon p-l-0">
+                                                        <i class="fa fa-calendar text-gray-light"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon text-white p-r-0">
+                                                        開始用車時間
+                                                    </span>
+                                                    <select class="c-select form-control" style="width:50%;">
+                                                        <option selected>00</option>
+                                                    </select>
+                                                    <select class="c-select form-control" style="width:50%;">
+                                                        <option selected>00</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <div class="input-group date">
+                                                    <input type="text" class="form-control bd-l-0 bd-r-0" value="" placeholder="結束搭車日期">
+                                                    <span class="input-group-addon p-l-0">
+                                                        <i class="fa fa-calendar text-gray-light"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon text-white p-r-0">
+                                                        結束用車時間
+                                                    </span>
+                                                    <select class="c-select form-control" style="width:50%;">
+                                                        <option selected>00</option>
+                                                    </select>
+                                                    <select class="c-select form-control" style="width:50%;">
+                                                        <option selected>00</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <select class="c-select form-control">
+                                                    <option selected>車型</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <select class="c-select form-control">
+                                                    <option selected>搭車人數</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <div class="text-xs-right">
+                                                    <a class="btn btn-primary btn-lg btn-block" href="">進入訂購流程</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="order-shuttle" role="tabpanel">
+                                    <form class="form-gray-dark">
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <div class="input-group date">
+                                                    <input type="text" class="form-control bd-l-0 bd-r-0" value="" placeholder="用車日期">
+                                                    <span class="input-group-addon p-l-0">
+                                                        <i class="fa fa-calendar text-gray-light"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon text-white p-r-0">
+                                                        用車起始時間
+                                                    </span>
+                                                    <select class="c-select form-control" style="width:50%;">
+                                                        <option selected>00</option>
+                                                    </select>
+                                                    <select class="c-select form-control" style="width:50%;">
+                                                        <option selected>00</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <select class="c-select form-control">
+                                                    <option selected>車型</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <select class="c-select form-control">
+                                                    <option selected>搭車人數</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <input type="text" class="form-control" placeholder="出發地址">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <input type="text" class="form-control" placeholder="停靠點1" data-toggle="modal" data-target="#modal-address">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <a class="btn btn-white btn-block btn-sm p-y-1 text-primary">
+                                                    <i class="fa fa-plus"></i> 新增停靠點
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <input type="text" class="form-control" placeholder="終點地址" data-toggle="modal" data-target="#modal-address">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <div class="text-xs-right">
+                                                    <a class="btn btn-primary btn-lg btn-block" href="">進入訂購流程</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="order-bank" role="tabpanel">
+                                    <form class="form-gray-dark">
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <select class="c-select form-control">
+                                                    <option selected>選擇銀行</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon text-white p-r-0">
+                                                        信用卡卡號
+                                                    </span>
+                                                    <input type="text" class="form-control bd-l-0 bd-r-0 p-x-1" maxlength="4" value="">
+                                                    <span class="input-group-addon p-x-0">-</span>
+                                                    <input type="text" class="form-control bd-l-0 bd-r-0 p-x-1" maxlength="4" value="">
+                                                    <span class="input-group-addon p-x-0">-</span>
+                                                    <input type="text" class="form-control bd-l-0 bd-r-0 p-x-1" maxlength="4" value="">
+                                                    <span class="input-group-addon p-x-0">-</span>
+                                                    <input type="text" class="form-control bd-l-0 bd-r-0 p-x-1" maxlength="4" value="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <input type="text" class="form-control" maxlength="4" placeholder="身分證末四碼">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <a class="btn btn-primary btn-lg btn-block" href="">確認送出</a>
+                                            </div>
+
+                                        </div>
+                                    </form>
+                                    <hr class="hr-gray m-x-1 m-y-4">
+                                    <form class="form-gray-dark">
+                                        <div class="form-group row">
+                                            <div class="col-xs-12">
+                                                <p>查詢訂單紀錄<br>
+                                                    <small>(請先輸入訂車人或乘車人手機號碼。)</small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <input type="text" class="form-control input-number" placeholder="手機號碼">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-xs-12 p-x-1">
+                                                <a class="btn btn-primary btn-lg btn-block" href="">確認送出</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav-order pos-f-b" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#order-pickup" role="tab">
+                            <i class="icon-cat-pickup white"></i><br>
+                            <small>接機</small>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#order-dropoff" role="tab">
+                            <i class="icon-cat-dropoff white"></i><br>
+                            <small>送機</small>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#order-rent" role="tab">
+                            <i class="icon-cat-rent white"></i><br>
+                            <small>包車</small>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#order-shuttle" role="tab">
+                            <i class="icon-cat-shuttle white"></i><br>
+                            <small>專屬接送</small>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#order-bank" role="tab">
+                            <i class="icon-cat-card white"></i><br>
+                            <small>銀行卡友</small>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>

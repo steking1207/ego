@@ -1,0 +1,532 @@
+.container, .container-fluid {
+  min-width: 994px !important; }
+
+#header {
+  z-index: 1001; }
+#header .container {
+  position: relative;
+  z-index: 2; }
+#header .navbar-brand {
+  margin-left: 50px;
+  width: 133px;
+  height: 22px;
+  background-image: url("../img/ui/logo-driways-color.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  #header .navbar-brand {
+    background-image: url("../img/ui/logo-driways-color@2x.png");
+    -moz-background-size: 133px, 22px;
+    -o-background-size: 133px, 22px;
+    -webkit-background-size: 133px, 22px;
+    background-size: 133px, 22px; } }
+@media (max-width: 1199px) {
+  #header .navbar-brand {
+    margin-left: 10px; } }
+#header a {
+  color: #999; }
+#header a:hover {
+  color: #aa0061;
+  text-decoration: none; }
+#header .btn-group {
+  margin: 0 -2px; }
+#header .btn-group .btn {
+  width: 110px;
+  height: 110px;
+  color: #fff; }
+@media (max-width: 1199px) {
+  #header .btn-group .btn {
+    width: 80px; } }
+#header .btn-group .dropdown-menu {
+  margin-top: 0; }
+#header .btn-group.btn-group-search .dropdown-menu {
+  position: fixed;
+  top: 110px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border: 1px solid #e9e9e9; }
+#header .btn-group.btn-group-search .dropdown-menu .form-control {
+  font-size: 30px;
+  color: #666; }
+#header .btn-group.btn-group-search .dropdown-menu .form-control::-webkit-input-placeholder {
+  color: #666; }
+#header .btn-group.btn-group-search .dropdown-menu .form-control:focus {
+  background-color: #e9e9e9; }
+#header .btn-group.btn-group-search .dropdown-menu .close {
+  float: none;
+  font-size: 30px;
+  color: #fff;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1; }
+#header .btn-group.btn-group-search .dropdown-menu .close:hover {
+  color: #666; }
+#header .btn-group.btn-group-user .dropdown-toggle {
+  margin: 0;
+  padding: 0;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAQCAMAAAA/D5+aAAAAFVBMVEX///////////////////////////9nSIHRAAAABnRSTlMAEGCPn79yDgNlAAAASklEQVR4AZ3JSwoAMRAC0XwS73/kCQ1FC+7GVeEbfzevtPxY0p1VTzDkWaWEtUgQhkAbc9lF42Atp8AtpC0FS8FCsJAwJA1Jc/kA/nQDseUO1FAAAAAASUVORK5CYII=);
+  background-repeat: no-repeat;
+  background-position: center 90%;
+  background-size: 13px 8px; }
+#header .btn-group.btn-group-user .dropdown-menu {
+  left: auto;
+  right: 0; }
+
+#footer {
+  color: #cfcfcf; }
+#footer a {
+  color: #fff; }
+#footer a:hover, #footer a:focus {
+  text-decoration: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8; }
+#footer .dropdown-menu a {
+  color: #333; }
+#footer .dropdown-menu a:hover {
+  color: #aa0061;
+  text-decoration: none; }
+#footer .btn {
+  padding-left: 0;
+  padding-right: 0;
+  width: 35px;
+  height: 35px;
+  background: #999;
+  color: #fff;
+  text-align: center; }
+#footer .btn:hover {
+  background: #333; }
+
+.kv-xl .container-fluid, .kv-xl .container {
+  height: 840px; }
+
+.kv-lg .container-fluid, .kv-lg .container, .kv-lg .carousel-item {
+  height: 660px; }
+
+.kv-md .container-fluid, .kv-md .container {
+  height: 560px; }
+
+.kv-sm .container-fluid, .kv-sm .container {
+  height: 490px; }
+
+.kv-xs .container-fluid, .kv-xs .container {
+  height: 410px; }
+
+.kv-about {
+  background-image: url("../img/desktop/kv-about.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .kv-about {
+    background-image: url("../img/desktop/kv-about@2x.jpg");
+    -moz-background-size: 100%, 100%;
+    -o-background-size: 100%, 100%;
+    -webkit-background-size: 100%, 100%;
+    background-size: 100%, 100%; } }
+
+.kv-about-pic {
+  height: 610px;
+  background-image: url("../img/desktop/kv-about-pic.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .kv-about-pic {
+    background-image: url("../img/desktop/kv-about-pic@2x.jpg");
+    -moz-background-size: 100%, 100%;
+    -o-background-size: 100%, 100%;
+    -webkit-background-size: 100%, 100%;
+    background-size: 100%, 100%; } }
+
+.kv-contact {
+  background-image: url("../img/desktop/kv-contact.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .kv-contact {
+    background-image: url("../img/desktop/kv-contact@2x.jpg");
+    -moz-background-size: 100%, 100%;
+    -o-background-size: 100%, 100%;
+    -webkit-background-size: 100%, 100%;
+    background-size: 100%, 100%; } }
+
+.kv-privacy {
+  background-image: url("../img/desktop/kv-privacy.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .kv-privacy {
+    background-image: url("../img/desktop/kv-privacy@2x.jpg");
+    -moz-background-size: 100%, 100%;
+    -o-background-size: 100%, 100%;
+    -webkit-background-size: 100%, 100%;
+    background-size: 100%, 100%; } }
+
+.kv-corp-airlines {
+  background-image: url("../img/desktop/kv-corp-airlines.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .kv-corp-airlines {
+    background-image: url("../img/desktop/kv-corp-airlines@2x.jpg");
+    -moz-background-size: 100%, 100%;
+    -o-background-size: 100%, 100%;
+    -webkit-background-size: 100%, 100%;
+    background-size: 100%, 100%; } }
+
+.kv-corp-airlines-pic {
+  height: 840px;
+  background-image: url("../img/desktop/kv-corp-airlines-pic.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .kv-corp-airlines-pic {
+    background-image: url("../img/desktop/kv-corp-airlines-pic@2x.jpg");
+    -moz-background-size: 100%, 100%;
+    -o-background-size: 100%, 100%;
+    -webkit-background-size: 100%, 100%;
+    background-size: 100%, 100%; } }
+
+.kv-corp-bank {
+  background-image: url("../img/desktop/kv-corp-bank.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .kv-corp-bank {
+    background-image: url("../img/desktop/kv-corp-bank@2x.jpg");
+    -moz-background-size: 100%, 100%;
+    -o-background-size: 100%, 100%;
+    -webkit-background-size: 100%, 100%;
+    background-size: 100%, 100%; } }
+
+.kv-corp-bank-pic {
+  height: 840px;
+  background-image: url("../img/desktop/kv-corp-bank-pic.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .kv-corp-bank-pic {
+    background-image: url("../img/desktop/kv-corp-bank-pic@2x.jpg");
+    -moz-background-size: 100%, 100%;
+    -o-background-size: 100%, 100%;
+    -webkit-background-size: 100%, 100%;
+    background-size: 100%, 100%; } }
+
+.kv-corp-service {
+  background-image: url("../img/desktop/kv-corp-service.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .kv-corp-service {
+    background-image: url("../img/desktop/kv-corp-service@2x.jpg");
+    -moz-background-size: 100%, 100%;
+    -o-background-size: 100%, 100%;
+    -webkit-background-size: 100%, 100%;
+    background-size: 100%, 100%; } }
+
+.kv-corp-service-pic {
+  height: 840px;
+  background-image: url("../img/desktop/kv-corp-service-pic.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .kv-corp-service-pic {
+    background-image: url("../img/desktop/kv-corp-service-pic@2x.jpg");
+    -moz-background-size: 100%, 100%;
+    -o-background-size: 100%, 100%;
+    -webkit-background-size: 100%, 100%;
+    background-size: 100%, 100%; } }
+
+.kv-crew {
+  background-image: url("../img/desktop/kv-crew.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .kv-crew {
+    background-image: url("../img/desktop/kv-crew@2x.jpg");
+    -moz-background-size: 100%, 100%;
+    -o-background-size: 100%, 100%;
+    -webkit-background-size: 100%, 100%;
+    background-size: 100%, 100%; } }
+
+.kv-cartype {
+  background-image: url("../img/desktop/kv-cartype.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .kv-cartype {
+    background-image: url("../img/desktop/kv-cartype@2x.jpg");
+    -moz-background-size: 100%, 100%;
+    -o-background-size: 100%, 100%;
+    -webkit-background-size: 100%, 100%;
+    background-size: 100%, 100%; } }
+
+.kv-airline-bus {
+  background-image: url("../img/desktop/kv-airline-bus.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .kv-airline-bus {
+    background-image: url("../img/desktop/kv-airline-bus@2x.jpg");
+    -moz-background-size: 100%, 100%;
+    -o-background-size: 100%, 100%;
+    -webkit-background-size: 100%, 100%;
+    background-size: 100%, 100%; } }
+
+#main {
+  position: relative;
+  z-index: 998; }
+
+.h-840 {
+  height: 840px; }
+.h-840 .carousel-inner {
+  height: 100%; }
+.h-840 .carousel-inner .carousel-item {
+  height: 100%; }
+
+.car-info {
+  height: 740px; }
+.car-info .slide {
+  height: 740px; }
+
+#scrollUp {
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/icon/icon-btn-arw-up.png");
+  background-color: #000;
+  background-position: center center;
+  background-repeat: no-repeat; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  #scrollUp {
+    background-image: url("../img/icon/icon-btn-arw-up@2x.png");
+    -moz-background-size: 50px, 50px;
+    -o-background-size: 50px, 50px;
+    -webkit-background-size: 50px, 50px;
+    background-size: 50px, 50px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2.25), only screen and (min--moz-device-pixel-ratio: 2.25), only screen and (-o-min-device-pixel-ratio: 9 / 4), only screen and (min-device-pixel-ratio: 2.25), only screen and (min-resolution: 2.25dppx), only screen and (min-resolution: 2dppx) {
+  #scrollUp {
+    background-image: url("../img/icon/icon-btn-arw-up@3x.png");
+    -moz-background-size: 50px, 50px;
+    -o-background-size: 50px, 50px;
+    -webkit-background-size: 50px, 50px;
+    background-size: 50px, 50px; } }
+#scrollUp:hover, #scrollUp:focus {
+  background-color: #111; }
+
+.link-group a:last-child {
+  border-left: 1px solid #e9e9e9; }
+
+.nav-order .nav-link {
+  margin: 0 5px;
+  padding: 20px 40px;
+  background-color: #f5f5f5;
+  color: #333;
+  cursor: pointer; }
+.nav-order .nav-link [class^="icon-cat-"], .nav-order .nav-link [class*="icon-cat-"] {
+  width: 66px;
+  height: 44px; }
+.nav-order .nav-link .icon-cat-pickup {
+  background-image: url("../img/icon/icon-cat-pickup-primary.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .nav-order .nav-link .icon-cat-pickup {
+    background-image: url("../img/icon/icon-cat-pickup-primary@2x.png");
+    -moz-background-size: 66px, 44px;
+    -o-background-size: 66px, 44px;
+    -webkit-background-size: 66px, 44px;
+    background-size: 66px, 44px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2.25), only screen and (min--moz-device-pixel-ratio: 2.25), only screen and (-o-min-device-pixel-ratio: 9 / 4), only screen and (min-device-pixel-ratio: 2.25), only screen and (min-resolution: 2.25dppx), only screen and (min-resolution: 2dppx) {
+  .nav-order .nav-link .icon-cat-pickup {
+    background-image: url("../img/icon/icon-cat-pickup-primary@3x.png");
+    -moz-background-size: 66px, 44px;
+    -o-background-size: 66px, 44px;
+    -webkit-background-size: 66px, 44px;
+    background-size: 66px, 44px; } }
+.nav-order .nav-link .icon-cat-dropoff {
+  background-image: url("../img/icon/icon-cat-dropoff-primary.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .nav-order .nav-link .icon-cat-dropoff {
+    background-image: url("../img/icon/icon-cat-dropoff-primary@2x.png");
+    -moz-background-size: 66px, 44px;
+    -o-background-size: 66px, 44px;
+    -webkit-background-size: 66px, 44px;
+    background-size: 66px, 44px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2.25), only screen and (min--moz-device-pixel-ratio: 2.25), only screen and (-o-min-device-pixel-ratio: 9 / 4), only screen and (min-device-pixel-ratio: 2.25), only screen and (min-resolution: 2.25dppx), only screen and (min-resolution: 2dppx) {
+  .nav-order .nav-link .icon-cat-dropoff {
+    background-image: url("../img/icon/icon-cat-dropoff-primary@3x.png");
+    -moz-background-size: 66px, 44px;
+    -o-background-size: 66px, 44px;
+    -webkit-background-size: 66px, 44px;
+    background-size: 66px, 44px; } }
+.nav-order .nav-link .icon-cat-rent {
+  background-image: url("../img/icon/icon-cat-rent-primary.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .nav-order .nav-link .icon-cat-rent {
+    background-image: url("../img/icon/icon-cat-rent-primary@2x.png");
+    -moz-background-size: 66px, 44px;
+    -o-background-size: 66px, 44px;
+    -webkit-background-size: 66px, 44px;
+    background-size: 66px, 44px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2.25), only screen and (min--moz-device-pixel-ratio: 2.25), only screen and (-o-min-device-pixel-ratio: 9 / 4), only screen and (min-device-pixel-ratio: 2.25), only screen and (min-resolution: 2.25dppx), only screen and (min-resolution: 2dppx) {
+  .nav-order .nav-link .icon-cat-rent {
+    background-image: url("../img/icon/icon-cat-rent-primary@3x.png");
+    -moz-background-size: 66px, 44px;
+    -o-background-size: 66px, 44px;
+    -webkit-background-size: 66px, 44px;
+    background-size: 66px, 44px; } }
+.nav-order .nav-link .icon-cat-shuttle {
+  background-image: url("../img/icon/icon-cat-shuttle-primary.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .nav-order .nav-link .icon-cat-shuttle {
+    background-image: url("../img/icon/icon-cat-shuttle-primary@2x.png");
+    -moz-background-size: 66px, 44px;
+    -o-background-size: 66px, 44px;
+    -webkit-background-size: 66px, 44px;
+    background-size: 66px, 44px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2.25), only screen and (min--moz-device-pixel-ratio: 2.25), only screen and (-o-min-device-pixel-ratio: 9 / 4), only screen and (min-device-pixel-ratio: 2.25), only screen and (min-resolution: 2.25dppx), only screen and (min-resolution: 2dppx) {
+  .nav-order .nav-link .icon-cat-shuttle {
+    background-image: url("../img/icon/icon-cat-shuttle-primary@3x.png");
+    -moz-background-size: 66px, 44px;
+    -o-background-size: 66px, 44px;
+    -webkit-background-size: 66px, 44px;
+    background-size: 66px, 44px; } }
+.nav-order .nav-link .icon-cat-card {
+  background-image: url("../img/icon/icon-cat-card-primary.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .nav-order .nav-link .icon-cat-card {
+    background-image: url("../img/icon/icon-cat-card-primary@2x.png");
+    -moz-background-size: 66px, 44px;
+    -o-background-size: 66px, 44px;
+    -webkit-background-size: 66px, 44px;
+    background-size: 66px, 44px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2.25), only screen and (min--moz-device-pixel-ratio: 2.25), only screen and (-o-min-device-pixel-ratio: 9 / 4), only screen and (min-device-pixel-ratio: 2.25), only screen and (min-resolution: 2.25dppx), only screen and (min-resolution: 2dppx) {
+  .nav-order .nav-link .icon-cat-card {
+    background-image: url("../img/icon/icon-cat-card-primary@3x.png");
+    -moz-background-size: 66px, 44px;
+    -o-background-size: 66px, 44px;
+    -webkit-background-size: 66px, 44px;
+    background-size: 66px, 44px; } }
+.nav-order .nav-link .c-radio .c-indicator {
+  background-color: #d0d0d0;
+  border: none; }
+.nav-order .nav-link:hover, .nav-order .nav-link:focus, .nav-order .nav-link.active {
+  background-color: #aa0061; }
+.nav-order .nav-link:hover label, .nav-order .nav-link:focus label, .nav-order .nav-link.active label {
+  color: #fff; }
+.nav-order .nav-link:hover .c-radio .c-indicator, .nav-order .nav-link:focus .c-radio .c-indicator, .nav-order .nav-link.active .c-radio .c-indicator {
+  background-color: #fff; }
+.nav-order .nav-link:hover .icon-cat-pickup, .nav-order .nav-link:focus .icon-cat-pickup, .nav-order .nav-link.active .icon-cat-pickup {
+  background-image: url("../img/icon/icon-cat-pickup-white.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .nav-order .nav-link:hover .icon-cat-pickup, .nav-order .nav-link:focus .icon-cat-pickup, .nav-order .nav-link.active .icon-cat-pickup {
+    background-image: url("../img/icon/icon-cat-pickup-white@2x.png");
+    -moz-background-size: 66px, 44px;
+    -o-background-size: 66px, 44px;
+    -webkit-background-size: 66px, 44px;
+    background-size: 66px, 44px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2.25), only screen and (min--moz-device-pixel-ratio: 2.25), only screen and (-o-min-device-pixel-ratio: 9 / 4), only screen and (min-device-pixel-ratio: 2.25), only screen and (min-resolution: 2.25dppx), only screen and (min-resolution: 2dppx) {
+  .nav-order .nav-link:hover .icon-cat-pickup, .nav-order .nav-link:focus .icon-cat-pickup, .nav-order .nav-link.active .icon-cat-pickup {
+    background-image: url("../img/icon/icon-cat-pickup-white@3x.png");
+    -moz-background-size: 66px, 44px;
+    -o-background-size: 66px, 44px;
+    -webkit-background-size: 66px, 44px;
+    background-size: 66px, 44px; } }
+.nav-order .nav-link:hover .icon-cat-dropoff, .nav-order .nav-link:focus .icon-cat-dropoff, .nav-order .nav-link.active .icon-cat-dropoff {
+  background-image: url("../img/icon/icon-cat-dropoff-white.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .nav-order .nav-link:hover .icon-cat-dropoff, .nav-order .nav-link:focus .icon-cat-dropoff, .nav-order .nav-link.active .icon-cat-dropoff {
+    background-image: url("../img/icon/icon-cat-dropoff-white@2x.png");
+    -moz-background-size: 66px, 44px;
+    -o-background-size: 66px, 44px;
+    -webkit-background-size: 66px, 44px;
+    background-size: 66px, 44px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2.25), only screen and (min--moz-device-pixel-ratio: 2.25), only screen and (-o-min-device-pixel-ratio: 9 / 4), only screen and (min-device-pixel-ratio: 2.25), only screen and (min-resolution: 2.25dppx), only screen and (min-resolution: 2dppx) {
+  .nav-order .nav-link:hover .icon-cat-dropoff, .nav-order .nav-link:focus .icon-cat-dropoff, .nav-order .nav-link.active .icon-cat-dropoff {
+    background-image: url("../img/icon/icon-cat-dropoff-white@3x.png");
+    -moz-background-size: 66px, 44px;
+    -o-background-size: 66px, 44px;
+    -webkit-background-size: 66px, 44px;
+    background-size: 66px, 44px; } }
+.nav-order .nav-link:hover .icon-cat-rent, .nav-order .nav-link:focus .icon-cat-rent, .nav-order .nav-link.active .icon-cat-rent {
+  background-image: url("../img/icon/icon-cat-rent-white.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .nav-order .nav-link:hover .icon-cat-rent, .nav-order .nav-link:focus .icon-cat-rent, .nav-order .nav-link.active .icon-cat-rent {
+    background-image: url("../img/icon/icon-cat-rent-white@2x.png");
+    -moz-background-size: 66px, 44px;
+    -o-background-size: 66px, 44px;
+    -webkit-background-size: 66px, 44px;
+    background-size: 66px, 44px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2.25), only screen and (min--moz-device-pixel-ratio: 2.25), only screen and (-o-min-device-pixel-ratio: 9 / 4), only screen and (min-device-pixel-ratio: 2.25), only screen and (min-resolution: 2.25dppx), only screen and (min-resolution: 2dppx) {
+  .nav-order .nav-link:hover .icon-cat-rent, .nav-order .nav-link:focus .icon-cat-rent, .nav-order .nav-link.active .icon-cat-rent {
+    background-image: url("../img/icon/icon-cat-rent-white@3x.png");
+    -moz-background-size: 66px, 44px;
+    -o-background-size: 66px, 44px;
+    -webkit-background-size: 66px, 44px;
+    background-size: 66px, 44px; } }
+.nav-order .nav-link:hover .icon-cat-shuttle, .nav-order .nav-link:focus .icon-cat-shuttle, .nav-order .nav-link.active .icon-cat-shuttle {
+  background-image: url("../img/icon/icon-cat-shuttle-white.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .nav-order .nav-link:hover .icon-cat-shuttle, .nav-order .nav-link:focus .icon-cat-shuttle, .nav-order .nav-link.active .icon-cat-shuttle {
+    background-image: url("../img/icon/icon-cat-shuttle-white@2x.png");
+    -moz-background-size: 66px, 44px;
+    -o-background-size: 66px, 44px;
+    -webkit-background-size: 66px, 44px;
+    background-size: 66px, 44px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2.25), only screen and (min--moz-device-pixel-ratio: 2.25), only screen and (-o-min-device-pixel-ratio: 9 / 4), only screen and (min-device-pixel-ratio: 2.25), only screen and (min-resolution: 2.25dppx), only screen and (min-resolution: 2dppx) {
+  .nav-order .nav-link:hover .icon-cat-shuttle, .nav-order .nav-link:focus .icon-cat-shuttle, .nav-order .nav-link.active .icon-cat-shuttle {
+    background-image: url("../img/icon/icon-cat-shuttle-white@3x.png");
+    -moz-background-size: 66px, 44px;
+    -o-background-size: 66px, 44px;
+    -webkit-background-size: 66px, 44px;
+    background-size: 66px, 44px; } }
+.nav-order .nav-link:hover .icon-cat-card, .nav-order .nav-link:focus .icon-cat-card, .nav-order .nav-link.active .icon-cat-card {
+  background-image: url("../img/icon/icon-cat-card-white.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .nav-order .nav-link:hover .icon-cat-card, .nav-order .nav-link:focus .icon-cat-card, .nav-order .nav-link.active .icon-cat-card {
+    background-image: url("../img/icon/icon-cat-card-white@2x.png");
+    -moz-background-size: 66px, 44px;
+    -o-background-size: 66px, 44px;
+    -webkit-background-size: 66px, 44px;
+    background-size: 66px, 44px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2.25), only screen and (min--moz-device-pixel-ratio: 2.25), only screen and (-o-min-device-pixel-ratio: 9 / 4), only screen and (min-device-pixel-ratio: 2.25), only screen and (min-resolution: 2.25dppx), only screen and (min-resolution: 2dppx) {
+  .nav-order .nav-link:hover .icon-cat-card, .nav-order .nav-link:focus .icon-cat-card, .nav-order .nav-link.active .icon-cat-card {
+    background-image: url("../img/icon/icon-cat-card-white@3x.png");
+    -moz-background-size: 66px, 44px;
+    -o-background-size: 66px, 44px;
+    -webkit-background-size: 66px, 44px;
+    background-size: 66px, 44px; } }
+
+.nav-tab .nav-link {
+  color: #fff; }
+.nav-tab .nav-link:hover, .nav-tab .nav-link:focus, .nav-tab .nav-link.active {
+  border: 1px solid #fff; }
+
+.bg-primary .nav-inline {
+  height: 50px; }
+.bg-primary .nav-inline .nav-link {
+  margin: 0 -2px;
+  height: 50px;
+  color: #fff; }
+.bg-primary .nav-inline .nav-link:hover, .bg-primary .nav-inline .nav-link.active {
+  background-color: #f7f7f9;
+  color: #aa0061; }
+
+.section-news .col-xs-6 {
+  padding: 50px;
+  border: 1px solid #e9e9e9;
+  border-top: none; }
+.section-news .col-xs-6:nth-child(1), .section-news .col-xs-6:nth-child(2) {
+  border-top: 1px solid #e9e9e9; }
+.section-news .col-xs-6:nth-child(odd) {
+  border-right: none; }
+
+.media-news .media-body .h5, .media-news .media-body p {
+  display: block;
+  width: 15rem;
+  text-overflow: ellipsis;
+  overflow: hidden; }
+.media-news .media-body .h5 {
+  white-space: nowrap; }
+.media-news .media-body p.text-gray {
+  height: 4.3rem; }
+
+.d-inline-block.m-x-4.p-x-0 li {
+  text-align: left; }
+
+#modal-result .bg-pattern-white {
+  padding-top: 70px !important;
+  padding-bottom: 70px !important; }
+
+.section-cartype.cartype-col-4 .car {
+  width: 25%; }
+.section-cartype.cartype-col-5 .car {
+  width: 20%; }
+.section-cartype > .car {
+  position: relative;
+  display: inline-block;
+  margin: 0 -2px; }
+.section-cartype > .car .tag {
+  position: absolute;
+  top: 42px;
+  left: 50%;
+  z-index: 10;
+  margin-left: -23px;
+  opacity: 0;
+  transition: all 0.2s ease-in-out; }
+.section-cartype > .car:hover, .section-cartype > .car:focus {
+  color: #aa0061; }
+.section-cartype > .car:hover .tag, .section-cartype > .car:focus .tag {
+  opacity: 1; }
+.section-cartype > .car:hover span, .section-cartype > .car:focus span {
+  color: #333; }

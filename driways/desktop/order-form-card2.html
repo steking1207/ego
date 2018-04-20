@@ -1,0 +1,603 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Driways</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content=""/>
+    <!--fb og-->
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="">
+    <meta property="og:image" content="../assets/img/og-image.jpg" >
+    <meta content="zh_TW" property="og:locale">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/desktop.css">
+    <link rel="stylesheet" href="../assets/css/font-awesome.css">
+    <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+    <link rel="icon" href="../favicon.ico">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="../assets/js/vendor/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="include-header-logged"></div>
+
+    <div id="main">
+        <div class="container-fluid bg-faded">
+            <div class="container">
+                <div class="row p-y-10">
+                    <div class="col-xs-12">
+                        <div class="bg-white m-b-4 bd-b-3-primary">
+                            <div class="bg-primary p-y-3 p-x-5">
+                                <span class="h5">訂購服務</span>
+                            </div>
+                            <div class="nav-order text-xs-center p-y-6">
+                                <div class="nav-link d-inline-block text-xs-center" onclick="window.location='order-form-pickup.html';">
+                                    <label class="c-input c-radio">
+                                        <input id="radio1" name="radio" type="radio">
+                                        <span class="c-indicator"></span><br>
+                                        <i class="icon-cat-pickup m-y-1"></i><br>
+                                        接機
+                                    </label>
+                                </div>
+                                <div class="nav-link d-inline-block text-xs-center" onclick="window.location='order-form-dropoff.html';">
+                                    <label class="c-input c-radio">
+                                        <input id="radio1" name="radio" type="radio">
+                                        <span class="c-indicator"></span><br>
+                                        <i class="icon-cat-dropoff m-y-1"></i><br>
+                                        送機
+                                    </label>
+                                </div>
+                                <div class="nav-link d-inline-block text-xs-center" onclick="window.location='order-form-rent.html';">
+                                    <label class="c-input c-radio">
+                                        <input id="radio1" name="radio" type="radio">
+                                        <span class="c-indicator"></span><br>
+                                        <i class="icon-cat-rent m-y-1"></i><br>
+                                        包車
+                                    </label>
+                                </div>
+                                <div class="nav-link d-inline-block text-xs-center" onclick="window.location='order-form-shuttle.html';">
+                                    <label class="c-input c-radio">
+                                        <input id="radio1" name="radio" type="radio">
+                                        <span class="c-indicator"></span><br>
+                                        <i class="icon-cat-shuttle m-y-1"></i><br>
+                                        專屬接送
+                                    </label>
+                                </div>
+                                <div class="nav-link d-inline-block text-xs-center active" onclick="window.location='order-form-card1.html';">
+                                    <label class="c-input c-radio">
+                                        <input id="radio1" name="radio" type="radio" checked>
+                                        <span class="c-indicator"></span><br>
+                                        <i class="icon-cat-card m-y-1"></i><br>
+                                        銀行卡友
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-10 offset-xs-1 p-x-0">
+                    <div class="p-a-5">
+                        <form class="">
+                            <div class="form-group row">
+                                <label for="" class="col-xs-2 col-form-label p-r-0">
+                                    服務項目
+                                </label>
+                                <div class="col-xs-3 p-x-1">
+                                    <select class="c-select form-control">
+                                        <option selected>卡友接機</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="" class="col-xs-2 col-form-label p-r-0">
+                                    出發機場
+                                </label>
+                                <div class="col-xs-3 p-x-1">
+                                    <select class="c-select form-control">
+                                        <option selected>請選擇地區</option>
+                                    </select>
+                                </div>
+                                <div class="col-xs-3 p-x-1">
+                                    <select class="c-select form-control">
+                                        <option selected>請選擇國家</option>
+                                    </select>
+                                </div>
+                                <div class="col-xs-3 p-x-1">
+                                    <select class="c-select form-control">
+                                        <option selected>請選擇機場</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="" class="col-xs-2 col-form-label p-r-0">
+                                    到達機場
+                                </label>
+                                <div class="col-xs-3 p-x-1 has-danger">
+                                    <select class="c-select form-control">
+                                        <option selected>請選擇機場</option>
+                                    </select>
+                                    <p class="form-text text-danger">
+                                        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <small class="">這個電子信箱已經註冊過了</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="" class="col-xs-2 col-form-label p-r-0">
+                                    航空公司
+                                </label>
+                                <div class="col-xs-3 p-x-1">
+                                    <select class="c-select form-control">
+                                        <option selected>請選擇航空公司</option>
+                                    </select>
+                                </div>
+                                <label for="" class="col-xs-2 col-form-label p-r-0">
+                                    航班日期
+                                </label>
+                                <div class="col-xs-2 p-x-1">
+                                    <div class="input-group date">
+                                        <input type="text" class="form-control bd-r-0" value="" placeholder="">
+                                        <span class="input-group-addon bg-white">
+                                            <i class="fa fa-calendar text-primary"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-xs-3 p-x-1">
+                                    <p class="form-control-static font-small">
+                                        ＊請選擇航班起飛日期
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="" class="col-xs-2 col-form-label p-r-0">
+                                    航班編號
+                                </label>
+                                <div class="col-xs-3 p-x-1">
+                                    <select class="c-select form-control">
+                                        <option selected>請選擇航班編號</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="" class="col-xs-2 col-form-label p-r-0">
+                                    航班抵達日期
+                                </label>
+                                <div class="col-xs-2 p-x-1">
+                                    <p class="form-control-static">
+                                        2016/10/31
+                                    </p>
+                                </div>
+                                <div class="col-xs-8 p-x-1">
+                                    <p class="form-control-static font-small">
+                                        ＊請注意，此為跨日期航班
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="" class="col-xs-2 col-form-label p-r-0">
+                                    航班抵達時間
+                                </label>
+                                <div class="col-xs-2 p-x-1">
+                                    <p class="form-control-static">
+                                        00:00
+                                    </p>
+                                </div>
+                                <div class="col-xs-8 p-x-1">
+                                    <p class="form-control-static font-small">
+                                        ＊行車時間若介於23 : 00~05 : 59需夜間加車價一成。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="" class="col-xs-2 col-form-label p-r-0">
+                                    指定接送日期
+                                </label>
+                                <div class="col-xs-2 p-x-1">
+                                    <div class="input-group date">
+                                        <input type="text" class="form-control bd-r-0" value="" placeholder="">
+                                        <span class="input-group-addon bg-white">
+                                            <i class="fa fa-calendar text-primary"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <label for="" class="col-xs-2 col-form-label p-r-0">
+                                    指定接送時間
+                                </label>
+                                <div class="col-xs-3 p-x-1">
+                                    <select class="c-select form-control" style="width:45%">
+                                        <option selected>00</option>
+                                    </select>
+                                    <span>:</span>
+                                    <select class="c-select form-control" style="width:45%">
+                                        <option selected>00</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-xs-3 p-x-1">
+                                    <p class="font-small">
+                                        ＊指定接送時間不可超過<br><span style="margin-right:0.9rem;"></span>航班抵達時間90分鐘
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="m-y-7"></div>
+                            <div class="form-group row">
+                                <label for="" class="col-xs-2 col-form-label p-r-0">
+                                    車型
+                                </label>
+                                <div class="col-xs-4 p-x-1">
+                                    <select class="c-select form-control">
+                                        <option selected>請選擇車型</option>
+                                    </select>
+                                </div>
+                                <div class="col-xs-6 p-x-1">
+                                    <p class="form-control-static font-small">
+                                        ＊可接送人數與搭載行李，將依車型而有所不同。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="" class="col-xs-2 col-form-label p-r-0">
+                                    搭車人數
+                                </label>
+                                <div class="col-xs-2 p-x-1">
+                                    <select class="c-select form-control">
+                                        <option selected>0</option>
+                                    </select>
+                                </div>
+                                <label for="" class="col-xs-2 col-form-label p-r-0">
+                                    手提行李
+                                </label>
+                                <div class="col-xs-2 p-x-1">
+                                    <select class="c-select form-control">
+                                        <option selected>0</option>
+                                    </select>
+                                </div>
+                                <label for="" class="col-xs-2 col-form-label p-r-0">
+                                    托運行李
+                                </label>
+                                <div class="col-xs-2 p-x-1">
+                                    <select class="c-select form-control">
+                                        <option selected>0</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="" class="col-xs-2 col-form-label p-r-0">
+                                    <span class="font-weight-bold">其他服務</span>
+                                </label>
+                                <div class="col-xs-2 p-x-1">
+                                    <p class="form-control-static">
+                                        <label class="c-input c-checkbox">
+                                            <input type="checkbox">
+                                            <span class="c-indicator"></span>
+                                            舉牌服務
+                                        </label>
+                                    </p>
+                                </div>
+                                <div class="col-xs-8 p-x-1">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-xs-3 offset-xs-2 p-x-1">
+                                    <p class="form-control-static">
+                                        <label class="c-input c-checkbox">
+                                            <input type="checkbox">
+                                            <span class="c-indicator"></span>
+                                            前向式安全座椅 (4歲以下)
+                                        </label>
+                                    </p>
+                                </div>
+                                <label for="" class="col-xs-1 col-form-label p-r-0">
+                                    數量
+                                </label>
+                                <div class="col-xs-1 p-x-1">
+                                    <select class="c-select form-control">
+                                        <option selected>0</option>
+                                    </select>
+                                </div>
+                                <div class="col-xs-2 p-x-1">
+                                    <p class="form-control-static">
+                                        <label class="c-input c-checkbox">
+                                            <input type="checkbox">
+                                            <span class="c-indicator"></span>
+                                            增高墊 (4歲以上)
+                                        </label>
+                                    </p>
+                                </div>
+                                <label for="" class="col-xs-1 col-form-label p-r-0">
+                                    數量
+                                </label>
+                                <div class="col-xs-1 p-x-1">
+                                    <select class="c-select form-control">
+                                        <option selected>0</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="m-y-7"></div>
+                            <div class="form-group row">
+                                <label for="" class="col-xs-2 col-form-label p-r-0">
+                                    抵達地址
+                                </label>
+                                <div class="col-xs-10 p-x-1">
+                                    <select class="c-select form-control" style="width:120px">
+                                        <option selected>台北市</option>
+                                    </select>
+                                    <select class="c-select form-control m-l-1" style="width:120px">
+                                        <option selected>中正區</option>
+                                    </select>
+                                    <select class="c-select form-control m-l-1" style="width:150px">
+                                        <option selected>重慶南路二段</option>
+                                    </select>
+                                    <input type="text" class="form-control form-w-xs m-x-1"> 巷
+                                    <input type="text" class="form-control form-w-xs m-x-1"> 弄
+                                    <input type="text" class="form-control form-w-xs m-x-1"> 號
+                                    <a class="btn btn-link p-x-0 p-y-1" href="">
+                                        <span class="h4"><i class="fa fa-trash-o"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-xs-10 offset-xs-2 p-x-1">
+                                    <select class="c-select form-control" style="width:120px">
+                                        <option selected>請選擇縣市</option>
+                                    </select>
+                                    <select class="c-select form-control m-l-1" style="width:120px">
+                                        <option selected>請選擇鄉鎮市區</option>
+                                    </select>
+                                    <select class="c-select form-control m-l-1" style="width:150px">
+                                        <option selected>請選擇道路街名</option>
+                                    </select>
+                                    <input type="text" class="form-control form-w-xs m-x-1"> 巷
+                                    <input type="text" class="form-control form-w-xs m-x-1"> 弄
+                                    <input type="text" class="form-control form-w-xs m-x-1"> 號
+                                    <a class="btn btn-link p-x-0 p-y-1" href="">
+                                        <span class="h4"><i class="fa fa-trash-o"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-xs-2 offset-xs-2 p-x-1">
+                                    <a class="btn btn-link p-a-0" href="">
+                                        <i class="fa fa-plus"></i> 新增停靠點
+                                    </a>
+                                </div>
+                            </div>
+
+
+                            <div class="m-y-7"></div>
+                            <div class="form-group row">
+                                <label for="" class="col-xs-2 col-form-label p-r-0">
+                                    訂購人資訊
+                                </label>
+                                <div class="col-xs-2 p-x-1">
+                                    <small>姓名</small>
+                                    <input type="text" class="form-control" value="林陵三">
+                                </div>
+                                <div class="col-xs-2 p-x-1">
+                                    <small>行動電話</small>
+                                    <select class="c-select form-control">
+                                        <option selected>台灣 +886</option>
+                                    </select>
+                                </div>
+                                <div class="col-xs-2 p-x-1">
+                                    <small>&nbsp;</small>
+                                    <input type="text" class="form-control" value="23334567">
+                                </div>
+                                <div class="col-xs-4 p-x-1">
+                                    <small>聯絡e-mail</small>
+                                    <input type="text" class="form-control" value="abc123@gmail.com">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="" class="col-xs-2 col-form-label p-r-0">
+                                    代表旅客資訊<br>
+                                    <label class="c-input c-checkbox">
+                                        <input type="checkbox">
+                                        <span class="c-indicator"></span>
+                                        同訂購人
+                                    </label>
+                                </label>
+                                <div class="col-xs-2 p-x-1 has-danger">
+                                    <small>姓名</small>
+                                    <input type="text" class="form-control" value="林陵三">
+                                    <p class="form-text text-danger">
+                                        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <small class="">錯誤</small>
+                                    </p>
+                                </div>
+                                <div class="col-xs-2 p-x-1 has-danger">
+                                    <small>行動電話</small>
+                                    <select class="c-select form-control">
+                                        <option selected>台灣 +886</option>
+                                    </select>
+                                    <p class="form-text text-danger">
+                                        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <small class="">錯誤</small>
+                                    </p>
+                                </div>
+                                <div class="col-xs-2 p-x-1 has-danger">
+                                    <small>&nbsp;</small>
+                                    <input type="text" class="form-control" value="23334567">
+                                    <p class="form-text text-danger">
+                                        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <small class="">錯誤</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-xs-2 offset-xs-4 p-x-1 has-danger">
+                                    <select class="c-select form-control">
+                                        <option selected>台灣 +886</option>
+                                    </select>
+                                    <p class="form-text text-danger">
+                                        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <small class="">錯誤</small>
+                                    </p>
+                                </div>
+                                <div class="col-xs-2 p-x-1 has-danger">
+                                    <input type="text" class="form-control" value="23334567">
+                                    <p class="form-text text-danger">
+                                        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <small class="">錯誤</small>
+                                    </p>
+                                </div>
+                                <div class="col-xs-2 p-x-1">
+                                    <a class="btn btn-link p-x-0 p-y-1" href="">
+                                        <span class="h4"><i class="fa fa-trash-o"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-xs-2 offset-xs-4 p-x-1">
+                                    <select class="c-select form-control">
+                                        <option selected>台灣 +886</option>
+                                    </select>
+                                </div>
+                                <div class="col-xs-2 p-x-1">
+                                    <input type="text" class="form-control" value="23334567">
+                                </div>
+                                <div class="col-xs-2 p-x-1">
+                                    <a class="btn btn-link p-x-0 p-y-1" href="">
+                                        <span class="h4"><i class="fa fa-trash-o"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-xs-2 offset-xs-4 p-x-1">
+                                    <a class="btn btn-link p-a-0" href="">
+                                        <i class="fa fa-plus"></i> 新增行動電話
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="m-y-7"></div>
+                            <div class="form-group row">
+                                <label for="" class="col-xs-2 col-form-label p-r-0">
+                                    備註
+                                </label>
+                                <div class="col-xs-10 p-x-1 has-danger">
+                                    <textarea class="form-control" id="" rows="3" placeholder="請輸入備註"></textarea>
+                                    <p class="form-text text-danger">
+                                        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <small class="">錯誤</small>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="m-y-7"></div>
+                            <div class="form-group row">
+                                <label for="" class="col-xs-2 col-form-label p-r-0">
+                                    發票資訊
+                                </label>
+                                <div class="col-xs-10 p-x-1">
+                                    <p class="form-control-static">
+                                        <label class="c-input c-radio">
+                                                <input id="radio1" name="radio" type="radio">
+                                                <span class="c-indicator"></span>
+                                                E-MAIL寄送電子發票
+                                        </label>
+                                        <label class="c-input c-radio">
+                                                <input id="radio2" name="radio" type="radio">
+                                                <span class="c-indicator"></span>
+                                                捐贈
+                                        </label>
+                                        <select class="c-select form-control form-w-auto">
+                                            <option selected>請選擇捐贈機構</option>
+                                        </select>
+                                    </p>
+                                    <p class="form-control-static">
+                                        <label class="c-input c-radio">
+                                            <input id="radio1" name="radio" type="radio">
+                                            <span class="c-indicator"></span>
+                                            統一編號
+                                        </label>
+                                        <input class="form-control form-w-auto m-r-10" type="text">
+                                        發票寄送地址
+                                        <input class="form-control form-w-auto" type="text">
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="m-y-7"></div>
+                            <div class="form-group row">
+                                <div class="col-xs-12">
+                                    <label class="c-input c-checkbox font-weight-bold m-r-3">
+                                        <input type="checkbox">
+                                        <span class="c-indicator"></span>
+                                        我要使用銀行紅利點數折抵
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="m-y-7"></div>
+                            <div class="form-group row">
+                                <label for="" class="col-xs-2 col-form-label p-r-0">
+                                    付款方式
+                                </label>
+                                <div class="col-xs-10 p-x-1">
+                                    <p class="form-control-static">
+                                        <label class="c-input c-radio">
+                                                <input id="radio1" name="radio" type="radio">
+                                                <span class="c-indicator"></span>
+                                                信用卡接受(VISA, Master, JCB)
+                                        </label>
+                                        <label class="c-input c-radio">
+                                                <input id="radio2" name="radio" type="radio">
+                                                <span class="c-indicator"></span>
+                                                ATM轉帳
+                                        </label>
+                                        <label class="c-input c-radio">
+                                            <input id="radio2" name="radio" type="radio">
+                                            <span class="c-indicator"></span>
+                                            支付寶
+                                        </label>
+                                    </p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-xs-12">
+                    <div class="bg-white bd-t-3-primary p-a-6">
+                        <div class="row">
+                            <div class="col-xs-12 m-b-6 text-xs-right">
+                                原價 <span class="h2">TWD12,700</span>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href="member-new-list.html" class="btn btn-lg btn-gray-light btn-square p-x-10 p-y-4">
+                                    <i class="fa fa-angle-left" aria-hidden="true"></i> 回上一頁
+                                </a>
+                            </div>
+                            <div class="col-xs-9 text-xs-right">
+                                <div class="btn-group" role="group">
+                                    <a href="order-atm.html" class="btn btn-lg btn-primary btn-square p-x-10 p-y-4">
+                                        下一步
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="include-uptogo-tour"></div>
+    </div>
+
+    <div id="include-footer"></div>
+
+    <!-- Common -->
+    <script src="../assets/js/vendor/boostrap-tether.min.js"></script>
+    <script src="../assets/js/vendor/bootstrap.min.js"></script>
+    <script src="../assets/js/vendor/bootstrap-datepicker.min.js"></script>
+    <script src="../assets/js/vendor/locales/bootstrap-datepicker.zh-TW.min.js"></script>
+    <script src="../assets/js/vendor/jquery.scrollUp.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/desktop.js"></script>
+
+    <!-- Htm include 程式可自行更改作法 -->
+    <script src="../assets/js/function/include.js"></script>
+
+</body>
+</html>
+

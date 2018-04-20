@@ -1,0 +1,295 @@
+.container, .container-fluid {
+  min-width: 1140px !important; }
+
+#header {
+  z-index: 1001;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+#header .container {
+  position: relative;
+  z-index: 2; }
+#header .navbar-brand {
+  width: 131px;
+  height: 49px;
+  background-image: url("../img/ui/logo-uptogo-color.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  #header .navbar-brand {
+    background-image: url("../img/ui/logo-uptogo-color@2x.png");
+    -moz-background-size: 131px, 49px;
+    -o-background-size: 131px, 49px;
+    -webkit-background-size: 131px, 49px;
+    background-size: 131px, 49px; } }
+#header a {
+  color: #333; }
+#header a:hover {
+  color: #82bc00;
+  text-decoration: none; }
+#header.header-white .navbar-brand {
+  background-image: url("../img/ui/logo-uptogo-white.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  #header.header-white .navbar-brand {
+    background-image: url("../img/ui/logo-uptogo-white@2x.png");
+    -moz-background-size: 131px, 49px;
+    -o-background-size: 131px, 49px;
+    -webkit-background-size: 131px, 49px;
+    background-size: 131px, 49px; } }
+#header.header-white a {
+  color: #fff; }
+#header.header-white a:hover {
+  color: #82bc00;
+  text-decoration: none; }
+#header.header-white .dropdown-toggle {
+  background: no-repeat right 0.75rem center url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAQCAMAAAA/D5+aAAAAFVBMVEX///////////////////////////9nSIHRAAAABnRSTlMAEGCPn79yDgNlAAAASklEQVR4AZ3JSwoAMRAC0XwS73/kCQ1FC+7GVeEbfzevtPxY0p1VTzDkWaWEtUgQhkAbc9lF42Atp8AtpC0FS8FCsJAwJA1Jc/kA/nQDseUO1FAAAAAASUVORK5CYII=);
+  background-size: 13px 8px; }
+#header.header-primary .navbar-brand {
+  background-image: url("../img/ui/logo-uptogo-color.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  #header.header-primary .navbar-brand {
+    background-image: url("../img/ui/logo-uptogo-color@2x.png");
+    -moz-background-size: 131px, 49px;
+    -o-background-size: 131px, 49px;
+    -webkit-background-size: 131px, 49px;
+    background-size: 131px, 49px; } }
+#header.header-primary a {
+  color: #333; }
+#header.header-primary a:hover {
+  color: #82bc00;
+  text-decoration: none; }
+#header.header-primary .dropdown-toggle {
+  background: no-repeat right 0.75rem center url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAQCAMAAAA/D5+aAAAAFVBMVEVMaXEzMzMzMzMzMzMzMzMzMzMzMzMNkzcAAAAABnRSTlMAn2C/jxBpeG2eAAAASklEQVR4AZ3JSwoAMRAC0XwS73/kCQ1FC+7GVeEbf3e3tPxY0r5VTzDkWaWEtUgQhkAHczlFY2Its8AtpC0FS8FCsJAwJA1Jc/kA50ADfak0CJQAAAAASUVORK5CYII=);
+  background-size: 13px 8px; }
+#header .dropdown-menu a {
+  color: #333; }
+#header .dropdown-menu a:hover {
+  color: #82bc00;
+  text-decoration: none; }
+#header .btn-primary {
+  color: #fff !important; }
+#header .btn-primary:hover {
+  color: #fff !important; }
+
+#footer {
+  min-height: 90px;
+  padding-bottom: 110px;
+  background-image: url("../img/ui/bg-pattern.png");
+  background-repeat: repeat-x !important;
+  background-position: 100% 100% !important; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  #footer {
+    background-image: url("../img/ui/bg-pattern@2x.png");
+    -moz-background-size: 100%, auto;
+    -o-background-size: 100%, auto;
+    -webkit-background-size: 100%, auto;
+    background-size: 100%, auto; } }
+#footer a {
+  color: #333; }
+#footer .btn {
+  padding-left: 0;
+  padding-right: 0;
+  width: 35px;
+  height: 35px;
+  background: #999;
+  color: #fff;
+  text-align: center; }
+#footer .btn:hover {
+  background: #333; }
+
+#kv {
+  margin-top: -95px;
+  background-position: center center; }
+#kv .carousel {
+  z-index: 9998; }
+#kv .carousel .carousel-inner {
+  overflow: visible; }
+#kv .carousel .container {
+  height: 600px; }
+#kv .carousel .container .v-middle {
+  max-width: 1200px; }
+
+.kv-lg .container-fluid, .kv-lg .container {
+  height: 750px !important; }
+.kv-lg .carousel .carousel-item {
+  height: 750px; }
+
+.kv-md .container-fluid, .kv-md .container {
+  position: relative;
+  height: 550px;
+  z-index: 100; }
+.kv-md .container-fluid .row, .kv-md .container .row {
+  position: relative;
+  height: 100%; }
+
+.pattern {
+  width: 978px; }
+.pattern.pattern-top {
+  height: 515px;
+  background-size: 978px 564px;
+  background-image: url("../img/ui/pattern.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .pattern.pattern-top {
+    background-image: url("../img/ui/pattern@2x.png");
+    -moz-background-size: 978px, 564px;
+    -o-background-size: 978px, 564px;
+    -webkit-background-size: 978px, 564px;
+    background-size: 978px, 564px; } }
+.pattern.pattern-index {
+  height: 500px;
+  background-image: url("../img/ui/pattern-index.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .pattern.pattern-index {
+    background-image: url("../img/ui/pattern-index@2x.png");
+    -moz-background-size: 978px, 564px;
+    -o-background-size: 978px, 564px;
+    -webkit-background-size: 978px, 564px;
+    background-size: 978px, 564px; } }
+.pattern.pattern-bottom {
+  z-index: 1;
+  height: 126px;
+  background-image: url("../img/ui/pattern-bottom.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .pattern.pattern-bottom {
+    background-image: url("../img/ui/pattern-bottom@2x.png");
+    -moz-background-size: 126px, 126px;
+    -o-background-size: 126px, 126px;
+    -webkit-background-size: 126px, 126px;
+    background-size: 126px, 126px; } }
+.kv-lg .pattern.pattern-top {
+  top: 235px; }
+.kv-lg .pattern.pattern-index {
+  top: 250px; }
+.kv-lg .pattern.pattern-bottom {
+  top: 684px; }
+.kv-md .pattern.pattern-top {
+  top: 35px; }
+.kv-md .pattern.pattern-bottom {
+  top: 484px; }
+
+.kv-about {
+  background-image: url("../img/desktop/kv-about.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .kv-about {
+    background-image: url("../img/desktop/kv-about@2x.jpg");
+    -moz-background-size: 100%, 100%;
+    -o-background-size: 100%, 100%;
+    -webkit-background-size: 100%, 100%;
+    background-size: 100%, 100%; } }
+
+.kv-about-group {
+  padding-top: 290px;
+  padding-bottom: 60px;
+  background-image: url("../img/desktop/kv-about-group.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .kv-about-group {
+    background-image: url("../img/desktop/kv-about-group@2x.jpg");
+    -moz-background-size: 100%, 100%;
+    -o-background-size: 100%, 100%;
+    -webkit-background-size: 100%, 100%;
+    background-size: 100%, 100%; } }
+
+.kv-package {
+  background-image: url("../img/desktop/kv-package.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .kv-package {
+    background-image: url("../img/desktop/kv-package@2x.jpg");
+    -moz-background-size: 100%, 100%;
+    -o-background-size: 100%, 100%;
+    -webkit-background-size: 100%, 100%;
+    background-size: 100%, 100%; } }
+
+.kv-contact {
+  background-image: url("../img/desktop/kv-contact.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .kv-contact {
+    background-image: url("../img/desktop/kv-contact@2x.jpg");
+    -moz-background-size: 100%, 100%;
+    -o-background-size: 100%, 100%;
+    -webkit-background-size: 100%, 100%;
+    background-size: 100%, 100%; } }
+
+.kv-privacy {
+  background-image: url("../img/desktop/kv-privacy.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .kv-privacy {
+    background-image: url("../img/desktop/kv-privacy@2x.jpg");
+    -moz-background-size: 100%, 100%;
+    -o-background-size: 100%, 100%;
+    -webkit-background-size: 100%, 100%;
+    background-size: 100%, 100%; } }
+
+#main {
+  position: relative;
+  z-index: 998; }
+
+.mask {
+  position: absolute !important;
+  top: 0;
+  z-index: 9999;
+  display: block;
+  width: 100%;
+  height: 95px;
+  background-color: rgba(204, 204, 204, 0);
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjUiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.5)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); }
+
+#scrollUp {
+  bottom: 100px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/icon/top.png");
+  background-position: center center;
+  background-repeat: no-repeat; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  #scrollUp {
+    background-image: url("../img/icon/top@2x.png");
+    -moz-background-size: 50px, 50px;
+    -o-background-size: 50px, 50px;
+    -webkit-background-size: 50px, 50px;
+    background-size: 50px, 50px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2.25), only screen and (min--moz-device-pixel-ratio: 2.25), only screen and (-o-min-device-pixel-ratio: 9 / 4), only screen and (min-device-pixel-ratio: 2.25), only screen and (min-resolution: 2.25dppx), only screen and (min-resolution: 2dppx) {
+  #scrollUp {
+    background-image: url("../img/icon/top@3x.png");
+    -moz-background-size: 50px, 50px;
+    -o-background-size: 50px, 50px;
+    -webkit-background-size: 50px, 50px;
+    background-size: 50px, 50px; } }
+#scrollUp:hover, #scrollUp:focus {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7; }
+
+.bg-primary .nav-inline {
+  height: 50px; }
+.bg-primary .nav-inline .nav-link {
+  margin: 0 -2px;
+  height: 50px;
+  color: #fff; }
+.bg-primary .nav-inline .nav-link:hover, .bg-primary .nav-inline .nav-link.active {
+  background-color: #f7f7f9;
+  color: #82bc00; }
+
+.link-group a:last-child {
+  border-left: 1px solid #e9e9e9; }
+
+.media-news .media-left {
+  height: 150px; }
+
+.pic-package {
+  background-image: url("../img/desktop/pic-package.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .pic-package {
+    background-image: url("../img/desktop/pic-package@2x.jpg");
+    -moz-background-size: 100%, 100%;
+    -o-background-size: 100%, 100%;
+    -webkit-background-size: 100%, 100%;
+    background-size: 100%, 100%; } }
+
+.carousel .box-circle {
+  width: 95px;
+  height: 95px;
+  line-height: 95px; }
